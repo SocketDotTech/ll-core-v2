@@ -4,7 +4,7 @@ export const addresses: {
   [chainId: number]: Address;
 } = {
   [ChainId.MAINNET_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
     stargateReceiver: '0x362c116779D2d27F822a497E4650B6e2616d3859',
 
     routeIds: {
@@ -94,7 +94,7 @@ export const addresses: {
   },
 
   [ChainId.BSC_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
     stargateReceiver: '0x71cF3E64E42bcAEC7485AF71571d7033E5b7dF93',
     routeIds: {
       [Bridge.AnySwapRouterV6]: { 
@@ -149,7 +149,7 @@ export const addresses: {
     },
   },
   [ChainId.FANTOM_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
     stargateReceiver: '0x24dE7b66673e6996a6677EC27c3678a32Ed5Bd15',
     routeIds: {
       [Bridge.AnySwapRouterV6]: { 
@@ -204,7 +204,7 @@ export const addresses: {
     },
   },
   [ChainId.AVAX_CHAIN_ID]: {
-    registry: '0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3',
+    socketGateway: '0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3',
     stargateReceiver: '0x83b2cda6A33128324ee9cb2f0360bA8a42Cec2C6',
     routeIds: {
       [Bridge.AnySwapRouterV6]: { 
@@ -259,7 +259,7 @@ export const addresses: {
     },
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
     stargateReceiver: '0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae',
 
     routeIds: {
@@ -332,7 +332,7 @@ export const addresses: {
     },
   },
   [ChainId.ARBITRUM_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
     stargateReceiver: '0x88616cB9499F32Ff6A784B66B60aABF0bCf0df39',
 
     routeIds: {
@@ -397,28 +397,11 @@ export const addresses: {
   },
 
   [ChainId.XDAI_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0x99Ee86FE22816508C512eaB64372c4ef9F6E16a7',
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 8,
+        routeId: 1,
         isMiddleware: false,
-      },
-      [Middleware.OneInch]: {
-        routeId: 2,
-        isMiddleware: true,
-      },
-
-      [Bridge.refuel]: {
-        routeId: 5,
-        isMiddleware: false,
-      },
-      [Middleware.refuelOneInch]: {
-        routeId: 6,
-        isMiddleware: true,
-      },
-      [Middleware.refuel]: {
-        routeId: 7,
-        isMiddleware: true,
       },
     },
     chainInfo: {
@@ -429,7 +412,7 @@ export const addresses: {
   },
 
   [ChainId.POLYGON_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
     stargateReceiver: '0x8DfeB2e0B392f0033C8685E35FB4763d88a70d12',
     routeIds: {
       [Bridge.Connext]: {
@@ -505,7 +488,7 @@ export const addresses: {
   },
 
   [ChainId.AURORA_CHAIN_ID]: {
-    registry: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
 
     routeIds: {
       [Bridge.Celer]: {
