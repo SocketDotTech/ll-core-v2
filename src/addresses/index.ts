@@ -412,72 +412,11 @@ export const addresses: {
   },
 
   [ChainId.POLYGON_CHAIN_ID]: {
-    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
-    stargateReceiver: '0x8DfeB2e0B392f0033C8685E35FB4763d88a70d12',
+    socketGateway: '0xAb506A3E23a581f578e5A9D3533Ef5170a93cb4C',
     routeIds: {
-      [Bridge.Connext]: {
-        routeId: 32,
-        isMiddleware: false,
-      },
-      [Bridge.AnySwapRouterV6]: {
-        routeId: 31,
-        isMiddleware: false,
-      },
-      [Bridge.Stargate]: {
-        routeId: 30,
-        isMiddleware: false,
-      },
-      [Bridge.Hop]: {
-        routeId: 21,
-        isMiddleware: false,
-      },
-      [Bridge.AnySwapRouterV4]: {
+      [Bridge.Celer]: {
         routeId: 2,
         isMiddleware: false,
-      },
-      [Bridge.Hyphen]: {
-        routeId: 14,
-        isMiddleware: false,
-      },
-      [Middleware.OneInch]: {
-        routeId: 5,
-        isMiddleware: true,
-      },
-      [Bridge.Celer]: {
-        routeId: 20,
-        isMiddleware: false,
-      },
-      [Bridge.refuel]: {
-        routeId: 10,
-        isMiddleware: false,
-      },
-      [Middleware.refuelOneInch]: {
-        routeId: 15,
-        isMiddleware: true,
-      },
-      [Middleware.refuel]: {
-        routeId: 18,
-        isMiddleware: true,
-      },
-      [Bridge.Across]: {
-        routeId: 13,
-        isMiddleware: false,
-      },
-      [Middleware.ZeroX]: {
-        routeId: 23,
-        isMiddleware: true,
-      },
-      [Middleware.refuelZeroX]: {
-        routeId: 24,
-        isMiddleware: true,
-      },
-      [Middleware.Rainbow]: {
-        routeId: 26,
-        isMiddleware: true,
-      },
-      [Middleware.refuelRainbow]: {
-        routeId: 25,
-        isMiddleware: true,
       }
     },
     chainInfo: {
