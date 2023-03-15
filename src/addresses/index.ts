@@ -317,7 +317,7 @@ export const addresses: {
   },
 
   [ChainId.XDAI_CHAIN_ID]: {
-    socketGateway: '0xAb506A3E23a581f578e5A9D3533Ef5170a93cb4C',
+    socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     routeIds: {
       [Bridge.Hop]: {
         routeId: 1,
