@@ -94,53 +94,13 @@ export const addresses: {
   },
 
   [ChainId.BSC_CHAIN_ID]: {
-    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     stargateReceiver: '0x71cF3E64E42bcAEC7485AF71571d7033E5b7dF93',
     routeIds: {
-      [Bridge.AnySwapRouterV6]: { 
-        routeId: 15,
-        isMiddleware: false,
-      },
-      [Bridge.Stargate]: {
-        routeId: 16,
-        isMiddleware: false,
-      },
-      [Bridge.AnySwapRouterV4]: {
+      [Bridge.Celer]: {
         routeId: 1,
         isMiddleware: false,
       },
-      [Middleware.OneInch]: {
-        routeId: 3,
-        isMiddleware: true,
-      },
-      [Bridge.Celer]: {
-        routeId: 11,
-        isMiddleware: false,
-      },
-      [Bridge.Hyphen]: {
-        routeId: 6,
-        isMiddleware: false,
-      },
-      [Bridge.refuel]: {
-        routeId: 8,
-        isMiddleware: false,
-      },
-      [Middleware.refuelOneInch]: {
-        routeId: 9,
-        isMiddleware: true,
-      },
-      [Middleware.refuel]: {
-        routeId: 10,
-        isMiddleware: true,
-      },
-      [Middleware.ZeroX]: {
-        routeId: 12,
-        isMiddleware: true,
-      },
-      [Middleware.refuelZeroX]: {
-        routeId: 13,
-        isMiddleware: true,
-      }
     },
     chainInfo: {
       chainId: 56,
@@ -204,53 +164,13 @@ export const addresses: {
     },
   },
   [ChainId.AVAX_CHAIN_ID]: {
-    socketGateway: '0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3',
+    socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     stargateReceiver: '0x83b2cda6A33128324ee9cb2f0360bA8a42Cec2C6',
     routeIds: {
-      [Bridge.AnySwapRouterV6]: { 
-        routeId: 15,
-        isMiddleware: false,
-      },
-      [Bridge.Stargate]: {
-        routeId: 16,
-        isMiddleware: false,
-      },
-      [Bridge.AnySwapRouterV4]: {
+      [Bridge.Celer]: {
         routeId: 1,
         isMiddleware: false,
       },
-      [Bridge.Hyphen]: {
-        routeId: 6,
-        isMiddleware: false,
-      },
-      [Middleware.OneInch]: {
-        routeId: 3,
-        isMiddleware: true,
-      },
-      [Bridge.Celer]: {
-        routeId: 11,
-        isMiddleware: false,
-      },
-      [Bridge.refuel]: {
-        routeId: 8,
-        isMiddleware: false,
-      },
-      [Middleware.refuelOneInch]: {
-        routeId: 9,
-        isMiddleware: true,
-      },
-      [Middleware.refuel]: {
-        routeId: 10,
-        isMiddleware: true,
-      },
-      [Middleware.ZeroX]: {
-        routeId: 12,
-        isMiddleware: true,
-      },
-      [Middleware.refuelZeroX]: {
-        routeId: 13,
-        isMiddleware: true,
-      }
     },
     chainInfo: {
       chainId: 43114,
@@ -412,8 +332,12 @@ export const addresses: {
   },
 
   [ChainId.POLYGON_CHAIN_ID]: {
-    socketGateway: '0xAb506A3E23a581f578e5A9D3533Ef5170a93cb4C',
+    socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     routeIds: {
+      [Bridge.Hop]: {
+        routeId: 1,
+        isMiddleware: false,
+      },
       [Bridge.Celer]: {
         routeId: 2,
         isMiddleware: false,
