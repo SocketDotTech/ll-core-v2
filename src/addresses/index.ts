@@ -179,70 +179,12 @@ export const addresses: {
     },
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
-    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     stargateReceiver: '0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae',
-
     routeIds: {
-      [Bridge.Connext]: {
-        routeId: 23,
-        isMiddleware: false,
-      },
-      [Bridge.AnySwapRouterV6]: { 
-        routeId: 22,
-        isMiddleware: false,
-      },
-      [Bridge.Stargate]: {
-        routeId: 21,
-        isMiddleware: false,
-      },
       [Bridge.Hop]: {
-        routeId: 15,
+        routeId: 1,
         isMiddleware: false,
-      },
-      [Bridge.Hyphen]: {
-        routeId: 14,
-        isMiddleware: false,
-      },
-      [Middleware.OneInch]: {
-        routeId: 3,
-        isMiddleware: true,
-      },
-      [Bridge.Across]: {
-        routeId: 7,
-        isMiddleware: false,
-      },
-      [Bridge.Celer]: {
-        routeId: 13,
-        isMiddleware: false,
-      },
-
-      [Bridge.refuel]: {
-        routeId: 9,
-        isMiddleware: false,
-      },
-      [Middleware.refuelOneInch]: {
-        routeId: 10,
-        isMiddleware: true,
-      },
-      [Middleware.refuel]: {
-        routeId: 11,
-        isMiddleware: true,
-      },
-      [Middleware.ZeroX]: {
-        routeId: 16,
-        isMiddleware: true,
-      },
-      [Middleware.refuelZeroX]: {
-        routeId: 17,
-        isMiddleware: true,
-      },
-      [Middleware.Rainbow]: {
-        routeId: 19,
-        isMiddleware: true,
-      },
-      [Middleware.refuelRainbow]: {
-        routeId: 18,
-        isMiddleware: true,
       },
     },
     chainInfo: {
