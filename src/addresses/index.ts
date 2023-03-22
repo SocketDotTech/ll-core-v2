@@ -145,6 +145,10 @@ export const addresses: {
       [Bridge.Celer]: {
         routeId: 2,
         isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 3,
+        isMiddleware: false,
       }
     },
     chainInfo: {
