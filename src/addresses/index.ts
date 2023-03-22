@@ -159,7 +159,7 @@ export const addresses: {
   },
 
   [ChainId.AURORA_CHAIN_ID]: {
-    socketGateway: '0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0',
+    socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
 
     routeIds: {
    
