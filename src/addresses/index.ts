@@ -153,6 +153,10 @@ export const addresses: {
       [Middleware.OneInch]: {
         routeId: 2,
         isMiddleware: true,
+      },
+      [Middleware.refuel]: {
+        routeId: 3,
+        isMiddleware: true,
       }
     },
     chainInfo: {

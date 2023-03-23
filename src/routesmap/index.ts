@@ -75,6 +75,12 @@ export const routesMap = {
       routeAddress: "0x31524750Cd865fF6A3540f232754Fb974c18585C",
       verifiedRouteAddress: "0x7c6C373190421988fA31E64f369C45205676C1f0",
     },
+    3: {
+      protocolName: Middleware.refuel,
+      isMiddleware: true,
+      routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
+      verifiedRouteAddress: "0xA898821781ba5dd78a485Bcb610b8a60bbC5357E",
+    },
   },
   [ChainId.ARBITRUM_CHAIN_ID]: {
     1: {
