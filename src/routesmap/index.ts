@@ -21,6 +21,12 @@ export const routesMap = {
       routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
       verifiedRouteAddress: "0x7c6C373190421988fA31E64f369C45205676C1f0",
     },
+    4: {
+      protocolName: Bridge.Hyphen,
+      isMiddleware: false,
+      routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
+      verifiedRouteAddress: "0x6e520F25E66450397d02ece0166edaF46c9BF28b",
+    }
   },
   [ChainId.BSC_CHAIN_ID]: {
     1: {
@@ -91,6 +97,12 @@ export const routesMap = {
       routeAddress: "0x31524750Cd865fF6A3540f232754Fb974c18585C",
       verifiedRouteAddress: "0xe0134Ca3d7AD384070580542Baee00511105BEfA",
     },
+    3: {
+      protocolName: Bridge.Hyphen,
+      isMiddleware: false,
+      routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
+      verifiedRouteAddress: "0x653a03b511E6FE9e80eeCb2bBbD36DCaf93cF147",
+    }
   },
   [ChainId.AVAX_CHAIN_ID]: {
     1: {
@@ -99,5 +111,11 @@ export const routesMap = {
       routeAddress: "0x8cd6BaCDAe46B449E2e5B34e348A4eD459c84D50",
       verifiedRouteAddress: "0xe0134Ca3d7AD384070580542Baee00511105BEfA",
     },
-  },
+    2: {
+      protocolName: Bridge.Hyphen,
+      isMiddleware: false,
+      routeAddress: "0x31524750Cd865fF6A3540f232754Fb974c18585C",
+      verifiedRouteAddress: "0xE186a05FB020324a7cA61d80138BB1EA66DDDbDF",
+    }
+  }
 };

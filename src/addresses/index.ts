@@ -19,6 +19,10 @@ export const addresses: {
       [Bridge.Celer]: {
         routeId: 3,
         isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 4,
+        isMiddleware: false,
       }
     },
     chainInfo: {
@@ -68,6 +72,10 @@ export const addresses: {
         routeId: 1,
         isMiddleware: false,
       },
+      [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      }
     },
     chainInfo: {
       chainId: 43114,
@@ -85,6 +93,10 @@ export const addresses: {
       },
       [Bridge.Celer]: {
         routeId: 2,
+        isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 3,
         isMiddleware: false,
       }
     },
