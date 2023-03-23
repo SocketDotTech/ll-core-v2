@@ -45,6 +45,10 @@ export const addresses: {
         routeId: 1,
         isMiddleware: false,
       },
+      [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      }
     },
     chainInfo: {
       chainId: 56,
@@ -56,7 +60,10 @@ export const addresses: {
     socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     stargateReceiver: '0x24dE7b66673e6996a6677EC27c3678a32Ed5Bd15',
     routeIds: {
-    
+      [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      }
     },
     chainInfo: {
       chainId: 250,
@@ -118,6 +125,10 @@ export const addresses: {
 
       [Bridge.Celer]: {
         routeId: 2,
+        isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 3,
         isMiddleware: false,
       }
     },
