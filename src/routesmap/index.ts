@@ -131,6 +131,12 @@ export const routesMap = {
     }
   },
   [ChainId.FANTOM_CHAIN_ID]: {
+    1: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0x8cd6BaCDAe46B449E2e5B34e348A4eD459c84D50",
+      verifiedRouteAddress: "0x1768C1D2900f1408D44FbB1EdCc306F94aF852ae",
+    },
     2: {
       protocolName: Bridge.Hyphen,
       isMiddleware: false,

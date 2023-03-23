@@ -63,6 +63,10 @@ export const addresses: {
       [Bridge.Hyphen]: {
         routeId: 2,
         isMiddleware: false,
+      },
+      [Bridge.Celer]: {
+        routeId: 1,
+        isMiddleware: false,
       }
     },
     chainInfo: {
