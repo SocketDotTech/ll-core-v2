@@ -180,6 +180,14 @@ export const addresses: {
       [Bridge.Hyphen]: {
         routeId: 3,
         isMiddleware: false,
+      },
+      [Bridge.Across]: {
+        routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 5,
+        isMiddleware: false,
       }
     },
     chainInfo: {

@@ -61,13 +61,25 @@ export const routesMap = {
       routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
       verifiedRouteAddress: "0xBAde7653492f1a70c3725EdeB2D28F3C84369809",
     },
+    4: {
+      protocolName: Bridge.Across,
+      isMiddleware: false,
+      routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
+      verifiedRouteAddress: "0xA257242ceFc988e9EEdD20a1dfbEe415223A7179",
+    },
+    5: {
+      protocolName: Bridge.Stargate,
+      isMiddleware: false,
+      routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
+      verifiedRouteAddress: "0xA257242ceFc988e9EEdD20a1dfbEe415223A7179",
+    }
   },
   [ChainId.XDAI_CHAIN_ID]: {
     1: {
       protocolName: Bridge.Hop,
       isMiddleware: false,
-      routeAddress: "0x8cd6BaCDAe46B449E2e5B34e348A4eD459c84D50",
-      verifiedRouteAddress: "0x2d0EeB574cC98f6d57c72FFe730D5C8a8f2eac37",
+      routeAddress: "0x9aFF58C460a461578C433e11C4108D1c4cF77761",
+      verifiedRouteAddress: "0xB24e2B830f4c78a1993F9b046089321764B28902",
     },
     2: {
       protocolName: Middleware.OneInch,
