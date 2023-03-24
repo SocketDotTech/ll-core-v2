@@ -70,8 +70,14 @@ export const routesMap = {
     5: {
       protocolName: Bridge.Stargate,
       isMiddleware: false,
-      routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
-      verifiedRouteAddress: "0xA257242ceFc988e9EEdD20a1dfbEe415223A7179",
+      routeAddress: "0x9aFF58C460a461578C433e11C4108D1c4cF77761",
+      verifiedRouteAddress: "0xB24e2B830f4c78a1993F9b046089321764B28902",
+    }, 
+    6: {
+      protocolName: Bridge.AnySwapRouterV4,
+      isMiddleware: false,
+      routeAddress: "0x2D1733886cFd465B0B99F1492F40847495f334C5",
+      verifiedRouteAddress: "0x0553582d40D4fe5445e9272f3B59f6fF80129952",
     }
   },
   [ChainId.XDAI_CHAIN_ID]: {

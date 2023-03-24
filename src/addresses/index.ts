@@ -188,6 +188,10 @@ export const addresses: {
       [Bridge.Stargate]: {
         routeId: 5,
         isMiddleware: false,
+      }, 
+      [Bridge.AnySwapRouterV4]: {
+        routeId: 6,
+        isMiddleware: false,
       }
     },
     chainInfo: {
