@@ -19,6 +19,10 @@ export const addresses: {
       [Bridge.Celer]: {
         routeId: 3,
         isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 4,
+        isMiddleware: false,
       }
     },
     chainInfo: {
@@ -41,6 +45,10 @@ export const addresses: {
         routeId: 1,
         isMiddleware: false,
       },
+      [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      }
     },
     chainInfo: {
       chainId: 56,
@@ -52,7 +60,14 @@ export const addresses: {
     socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
     stargateReceiver: '0x24dE7b66673e6996a6677EC27c3678a32Ed5Bd15',
     routeIds: {
-    
+      [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      },
+      [Bridge.Celer]: {
+        routeId: 1,
+        isMiddleware: false,
+      }
     },
     chainInfo: {
       chainId: 250,
@@ -68,6 +83,10 @@ export const addresses: {
         routeId: 1,
         isMiddleware: false,
       },
+      [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      }
     },
     chainInfo: {
       chainId: 43114,
@@ -85,6 +104,10 @@ export const addresses: {
       },
       [Bridge.Celer]: {
         routeId: 2,
+        isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 3,
         isMiddleware: false,
       }
     },
@@ -107,6 +130,10 @@ export const addresses: {
       [Bridge.Celer]: {
         routeId: 2,
         isMiddleware: false,
+      },
+      [Bridge.Hyphen]: {
+        routeId: 3,
+        isMiddleware: false,
       }
     },
     chainInfo: {
@@ -125,6 +152,10 @@ export const addresses: {
       },
       [Middleware.OneInch]: {
         routeId: 2,
+        isMiddleware: true,
+      },
+      [Middleware.refuel]: {
+        routeId: 3,
         isMiddleware: true,
       }
     },
@@ -148,6 +179,14 @@ export const addresses: {
       },
       [Bridge.Hyphen]: {
         routeId: 3,
+        isMiddleware: false,
+      },
+      [Bridge.Across]: {
+        routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 5,
         isMiddleware: false,
       }
     },
