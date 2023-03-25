@@ -154,9 +154,9 @@ export const addresses: {
         routeId: 2,
         isMiddleware: true,
       },
-      [Middleware.refuel]: {
+      [Bridge.refuel]: {
         routeId: 3,
-        isMiddleware: true,
+        isMiddleware: false,
       }
     },
     chainInfo: {
