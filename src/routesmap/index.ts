@@ -26,7 +26,19 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
       verifiedRouteAddress: "0x6e520F25E66450397d02ece0166edaF46c9BF28b",
-    }
+    },
+    5: {
+      protocolName: Bridge.ArbitrumBridge,
+      isMiddleware: false,
+      routeAddress:'0x9aff58c460a461578c433e11c4108d1c4cf77761',
+      verifiedRouteAddress: "0xA257242ceFc988e9EEdD20a1dfbEe415223A7179",
+    },
+    6: {
+      protocolName: Bridge.OptimismBridge,
+      isMiddleware: false,
+      routeAddress: '0x2d1733886cfd465b0b99f1492f40847495f334c5',
+      verifiedRouteAddress: "0xB24e2B830f4c78a1993F9b046089321764B28902",
+    },
   },
   [ChainId.BSC_CHAIN_ID]: {
     1: {

@@ -23,7 +23,15 @@ export const addresses: {
       [Bridge.Hyphen]: {
         routeId: 4,
         isMiddleware: false,
-      }
+      },
+      [Bridge.ArbitrumBridge]: {
+        routeId: 5,
+        isMiddleware: false,
+      },
+      [Bridge.OptimismBridge]: {
+        routeId: 6,
+        isMiddleware: false,
+      },
     },
     chainInfo: {
       chainId: 1,
