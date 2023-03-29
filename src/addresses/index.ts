@@ -117,6 +117,10 @@ export const addresses: {
       [Bridge.Hyphen]: {
         routeId: 3,
         isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 7,
+        isMiddleware: false,
       }
     },
     chainInfo: {

@@ -150,7 +150,13 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
       verifiedRouteAddress: "0x653a03b511E6FE9e80eeCb2bBbD36DCaf93cF147",
-    }
+    },
+    7: {
+      protocolName: Bridge.AnySwapRouterV6,
+      isMiddleware: false,
+      routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
+      verifiedRouteAddress: '0x09BBE4DacBf631994F2f1b70c1B18d62c19466E6'
+    },
   },
   [ChainId.AVAX_CHAIN_ID]: {
     1: {
