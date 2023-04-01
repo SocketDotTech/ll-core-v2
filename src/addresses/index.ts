@@ -32,6 +32,26 @@ export const addresses: {
         routeId: 6,
         isMiddleware: false,
       },
+      [Bridge.Across]: {
+        routeId: 7,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 8,
+        isMiddleware: false,
+      },
+      [Middleware.refuel]: {
+        routeId: 9,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV4]: {
+        routeId: 10,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 11,
+        isMiddleware: false,
+      },
     },
     chainInfo: {
       chainId: 1,
@@ -56,6 +76,22 @@ export const addresses: {
       [Bridge.Hyphen]: {
         routeId: 2,
         isMiddleware: false,
+      },
+      [Middleware.refuel]: {
+        routeId: 3,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV4]: {
+        routeId: 5,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 6,
+        isMiddleware: false,
       }
     },
     chainInfo: {
@@ -75,6 +111,22 @@ export const addresses: {
       [Bridge.Celer]: {
         routeId: 1,
         isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 3,
+        isMiddleware: false,
+      },
+      [Middleware.refuel]: {
+        routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV4]: {
+        routeId: 5,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 6,
+        isMiddleware: false,
       }
     },
     chainInfo: {
@@ -92,6 +144,22 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
+        routeId: 2,
+        isMiddleware: false,
+      },
+      [Bridge.refuel]: {
+        routeId: 3,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV4]: {
+        routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 2,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV6]: {
         routeId: 2,
         isMiddleware: false,
       }
@@ -116,6 +184,18 @@ export const addresses: {
       },
       [Bridge.Hyphen]: {
         routeId: 3,
+        isMiddleware: false,
+      },
+      [Bridge.Across]: {
+        routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.refuel]: {
+        routeId: 5,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 6,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -146,7 +226,29 @@ export const addresses: {
       [Bridge.Hyphen]: {
         routeId: 3,
         isMiddleware: false,
-      }
+      },
+      [Bridge.Across]: { 
+        routeId: 4,
+        isMiddleware: false,
+      }, 
+
+      [Bridge.AnySwapRouterV4]: {
+        routeId: 5,
+        isMiddleware: false,
+      },
+      [Bridge.Stargate]: {
+        routeId: 6,
+        isMiddleware: false,
+      },
+      [Bridge.refuel]: { 
+        routeId: 7,
+        isMiddleware: false,
+      }, 
+
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 8,
+        isMiddleware: false,
+      },
     },
     chainInfo: {
       chainId: 42161,
@@ -204,7 +306,15 @@ export const addresses: {
       [Bridge.AnySwapRouterV4]: {
         routeId: 6,
         isMiddleware: false,
-      }
+      },
+      [Bridge.refuel]: {
+        routeId: 7,
+        isMiddleware: false,
+      },
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 8,
+        isMiddleware: false,
+      },
     },
     chainInfo: {
       chainId: 137,
@@ -215,9 +325,15 @@ export const addresses: {
 
   [ChainId.AURORA_CHAIN_ID]: {
     socketGateway: '0x3a23F943181408EAC424116Af7b7790c94Cb97a5',
-
     routeIds: {
-   
+      [Bridge.refuel]: {
+        routeId: 1,
+        isMiddleware: false,
+      },
+      [Bridge.Celer]: {
+        routeId: 2,
+        isMiddleware: false,
+      },
     },
     chainInfo: {
       chainId: 1313161554,
