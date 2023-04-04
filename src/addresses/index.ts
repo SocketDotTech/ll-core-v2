@@ -52,6 +52,10 @@ export const addresses: {
         routeId: 11,
         isMiddleware: false,
       },
+      [Middleware.OneInch]: {
+        routeId: 12,
+        isMiddleware: true,
+      }
     },
     chainInfo: {
       chainId: 1,
@@ -92,6 +96,10 @@ export const addresses: {
       [Bridge.AnySwapRouterV6]: {
         routeId: 6,
         isMiddleware: false,
+      },
+      [Middleware.OneInch]: {
+        routeId: 7,
+        isMiddleware: true,
       }
     },
     chainInfo: {
@@ -127,6 +135,10 @@ export const addresses: {
       [Bridge.AnySwapRouterV6]: {
         routeId: 6,
         isMiddleware: false,
+      },
+      [Middleware.OneInch]: { 
+        routeId: 7,
+        isMiddleware: true,
       }
     },
     chainInfo: {
@@ -156,12 +168,16 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 2,
+        routeId: 5,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 2,
+        routeId: 6,
         isMiddleware: false,
+      }, 
+      [Middleware.OneInch]: {
+        routeId: 7,
+        isMiddleware: true,
       }
     },
     chainInfo: {
@@ -201,6 +217,10 @@ export const addresses: {
       [Bridge.AnySwapRouterV6]: {
         routeId: 7,
         isMiddleware: false,
+      },
+      [Middleware.OneInch]: {
+        routeId: 8,
+        isMiddleware: true,
       }
     },
     chainInfo: {
@@ -249,6 +269,10 @@ export const addresses: {
         routeId: 8,
         isMiddleware: false,
       },
+      [Middleware.OneInch]: {
+        routeId: 10,
+        isMiddleware: true,
+      }
     },
     chainInfo: {
       chainId: 42161,
@@ -265,7 +289,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 2,
+        routeId: 5,
         isMiddleware: true,
       },
       [Bridge.refuel]: {
@@ -315,6 +339,10 @@ export const addresses: {
         routeId: 8,
         isMiddleware: false,
       },
+      [Middleware.OneInch]: {
+        routeId: 9,
+        isMiddleware: true,
+      }
     },
     chainInfo: {
       chainId: 137,
@@ -334,6 +362,10 @@ export const addresses: {
         routeId: 2,
         isMiddleware: false,
       },
+      [Middleware.OneInch]: {
+        routeId: 3,
+        isMiddleware: true,
+      }
     },
     chainInfo: {
       chainId: 1313161554,
