@@ -1,4 +1,4 @@
-import { ChainId, Bridge, Middleware } from '../constants/types';
+import { ChainId, Bridge, Middleware, Controller } from '../constants/types';
 import { Address } from './type';
 export const addresses: {
   [chainId: number]: Address;
@@ -295,6 +295,11 @@ export const addresses: {
       [Bridge.refuel]: {
         routeId: 3,
         isMiddleware: false,
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 1,
       }
     },
     chainInfo: {

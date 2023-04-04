@@ -14,6 +14,10 @@ export enum Bridge {
   Connext = "connext",
 }
 
+export enum Controller {
+  RefuelSwapAndBridge = "refuel-swap-bridge",
+}
+
 export enum Middleware {
   OneInch = "oneinch",
   ZeroX = "zerox",
