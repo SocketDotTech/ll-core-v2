@@ -69,6 +69,12 @@ export const routesMap = {
       routeAddress: '0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38',
       verifiedRouteAddress: "0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
     },
+    12: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: '0x969423d71b62C81d2f28d707364c9Dc4a0764c53',
+      verifiedRouteAddress:'0xaea8417CBEb05C3B78b5E89db657eE56F095dE8D',
+    }
   },
   [ChainId.BSC_CHAIN_ID]: {
     1: {
@@ -106,6 +112,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x2D1733886cFd465B0B99F1492F40847495f334C5",
       verifiedRouteAddress: "0x6e520F25E66450397d02ece0166edaF46c9BF28b",
+    },
+    7: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
+      verifiedRouteAddress: "0x235c819eB6877c2ffDE5AF457464131Db47500Dc",
     }
   },
   [ChainId.POLYGON_CHAIN_ID]: {
@@ -156,6 +168,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x90C8a40c38E633B5B0e0d0585b9F7FA05462CaaF",
       verifiedRouteAddress: "0x34d5999e737defa0c4dda2512f399862ee368445",
+    },
+    9: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
+      verifiedRouteAddress: "0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
     }
   },
   [ChainId.XDAI_CHAIN_ID]: {
@@ -177,6 +195,18 @@ export const routesMap = {
       routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
       verifiedRouteAddress: "0xA898821781ba5dd78a485Bcb610b8a60bbC5357E",
     },
+    4: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
+      verifiedRouteAddress: "0x89800a17cea97db4a8f0705d7f8da770032397f5",
+    },
+    5: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0x9aFF58C460a461578C433e11C4108D1c4cF77761",
+      verifiedRouteAddress: "0xFAAFb26C06a45962E97452E5d4310df2586623A2",
+    }
   },
   [ChainId.ARBITRUM_CHAIN_ID]: {
     1: {
@@ -226,6 +256,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x90c8a40c38e633b5b0e0d0585b9f7fa05462caaf",
       verifiedRouteAddress: "0xb24e2b830f4c78a1993f9b046089321764b28902",
+    },
+    10: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
+      verifiedRouteAddress: "0x3Dd7419889FF387A58D3Dad1F8B49ea1064290fB",
     }
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
@@ -271,6 +307,12 @@ export const routesMap = {
       routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
       verifiedRouteAddress: '0x09BBE4DacBf631994F2f1b70c1B18d62c19466E6'
     },
+    8: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0x90c8a40c38e633b5b0e0d0585b9f7fa05462caaf",
+      verifiedRouteAddress: "0xAA95ED59FC4a4e0AcDeE31A8981cD8F6F2ae6445",
+    }
   },
   [ChainId.AVAX_CHAIN_ID]: {
     1: {
@@ -309,6 +351,12 @@ export const routesMap = {
       routeAddress: "0x2D1733886cFd465B0B99F1492F40847495f334C5",
       verifiedRouteAddress: "0x838286885360aaFF02AA42C95bde31f6055C919F",
     },
+    7: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
+      verifiedRouteAddress: "0x7BdBC83a50894a3c693F9FBfAAF07776be410c8E",
+    }
   },
   [ChainId.FANTOM_CHAIN_ID]: {
     1: {
@@ -346,6 +394,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x2D1733886cFd465B0B99F1492F40847495f334C5",
       verifiedRouteAddress: "0xE186a05FB020324a7cA61d80138BB1EA66DDDbDF",
+    },
+    7: {
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
+      verifiedRouteAddress: "0x6e520F25E66450397d02ece0166edaF46c9BF28b",
     }
   },
   [ChainId.AURORA_CHAIN_ID]: {
@@ -361,5 +415,11 @@ export const routesMap = {
       routeAddress: "0x31524750Cd865fF6A3540f232754Fb974c18585C",
       verifiedRouteAddress: "0x5cddbecaf8603e5e0bc771a46d48e148593351ea",
     },
+    3: { 
+      protocolName: Middleware.OneInch,
+      isMiddleware: true,
+      routeAddress: '0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a',
+      verifiedRouteAddress: '0xA898821781ba5dd78a485Bcb610b8a60bbC5357E',
+    }
   }
 };
