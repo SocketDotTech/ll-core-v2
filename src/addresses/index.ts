@@ -378,6 +378,14 @@ export const addresses: {
         routeId: 9,
         isMiddleware: true,
       },
+      [Middleware.ZeroX]: {
+        routeId: 10,
+        isMiddleware: true,
+      },
+      [Middleware.Rainbow]: {
+        routeId: 11,
+        isMiddleware: true,
+      }
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {

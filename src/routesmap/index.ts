@@ -174,6 +174,18 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
       verifiedRouteAddress: "0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
+    },
+    10: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
+      verifiedRouteAddress: "0xaea8417CBEb05C3B78b5E89db657eE56F095dE8D",
+    },
+    11: {
+      protocolName: Middleware.Rainbow,
+      isMiddleware: true,
+      routeAddress: "0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38",
+      verifiedRouteAddress: "0xeE4D022dF0A616007091a5f50FeD141a0aF7c06A",
     }
   },
   [ChainId.XDAI_CHAIN_ID]: {
