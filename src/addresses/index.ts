@@ -379,7 +379,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 10,
+        routeId: 12,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
