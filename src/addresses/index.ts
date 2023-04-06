@@ -419,7 +419,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 14,
+        routeId: 15,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
