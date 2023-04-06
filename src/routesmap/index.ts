@@ -223,6 +223,12 @@ export const routesMap = {
       routeAddress: "0xF86729934C083fbEc8C796068A1fC60701Ea1207",
       verifiedRouteAddress: "0x1f83E8a02F3869fB7fF043c89F3f31a48EfA9195r",
     },
+    14: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0xD7cC2571F5823caCA26A42690D2BE7803DD5393f",
+      verifiedRouteAddress: "0x7438c178BA5B6C014F984478de175951B39A2E24",
+    },
   },
   [ChainId.XDAI_CHAIN_ID]: {
     1: {
