@@ -30,51 +30,63 @@ export const routesMap = {
     5: {
       protocolName: Bridge.ArbitrumBridge,
       isMiddleware: false,
-      routeAddress:'0x9aff58c460a461578c433e11c4108d1c4cf77761',
+      routeAddress: "0x9aff58c460a461578c433e11c4108d1c4cf77761",
       verifiedRouteAddress: "0xA257242ceFc988e9EEdD20a1dfbEe415223A7179",
     },
     6: {
       protocolName: Bridge.OptimismBridge,
       isMiddleware: false,
-      routeAddress: '0x2d1733886cfd465b0b99f1492f40847495f334c5',
+      routeAddress: "0x2d1733886cfd465b0b99f1492f40847495f334c5",
       verifiedRouteAddress: "0xB24e2B830f4c78a1993F9b046089321764B28902",
     },
     7: {
       protocolName: Bridge.Across,
       isMiddleware: false,
-      routeAddress: '0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4',
+      routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
       verifiedRouteAddress: "0x0553582d40D4fe5445e9272f3B59f6fF80129952",
     },
     8: {
       protocolName: Bridge.Stargate,
       isMiddleware: false,
-      routeAddress: '0x90C8a40c38E633B5B0e0d0585b9F7FA05462CaaF',
+      routeAddress: "0x90C8a40c38E633B5B0e0d0585b9F7FA05462CaaF",
       verifiedRouteAddress: "0x3Dd7419889FF387A58D3Dad1F8B49ea1064290fB",
     },
     9: {
       protocolName: Middleware.refuel,
       isMiddleware: false,
-      routeAddress: '0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6',
+      routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
       verifiedRouteAddress: "0x838286885360aaFF02AA42C95bde31f6055C919F",
     },
     10: {
       protocolName: Bridge.AnySwapRouterV4,
       isMiddleware: false,
-      routeAddress: '0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e',
+      routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
       verifiedRouteAddress: "0x6D4F89284e06554eeEEF79215A823B6F9d7b48D8",
     },
     11: {
       protocolName: Bridge.AnySwapRouterV6,
       isMiddleware: false,
-      routeAddress: '0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38',
+      routeAddress: "0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38",
       verifiedRouteAddress: "0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
     },
     12: {
       protocolName: Middleware.OneInch,
       isMiddleware: true,
-      routeAddress: '0x969423d71b62C81d2f28d707364c9Dc4a0764c53',
-      verifiedRouteAddress:'0xaea8417CBEb05C3B78b5E89db657eE56F095dE8D',
-    }
+      routeAddress: "0x969423d71b62C81d2f28d707364c9Dc4a0764c53",
+      verifiedRouteAddress: "0xaea8417CBEb05C3B78b5E89db657eE56F095dE8D",
+    },
+    13: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0xF86729934C083fbEc8C796068A1fC60701Ea1207",
+      verifiedRouteAddress: "0x4D46d8c1Ac1c80538AF5002BC64B6412e4Ac1023",
+    },
+    14: {
+      protocolName: Middleware.Rainbow,
+      isMiddleware: true,
+      routeAddress: "0xD7cC2571F5823caCA26A42690D2BE7803DD5393f",
+      verifiedRouteAddress: "0xe7aC28a24E7c77413a55B99B7e0D53116D2E3E88",
+    },
   },
   [ChainId.BSC_CHAIN_ID]: {
     1: {
@@ -118,7 +130,19 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
       verifiedRouteAddress: "0x235c819eB6877c2ffDE5AF457464131Db47500Dc",
-    }
+    },
+    8: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0x90C8a40c38E633B5B0e0d0585b9F7FA05462CaaF",
+      verifiedRouteAddress: "0xAA95ED59FC4a4e0AcDeE31A8981cD8F6F2ae6445",
+    },
+    9: {
+      protocolName: Middleware.Rainbow,
+      isMiddleware: true,
+      routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
+      verifiedRouteAddress: "0x0553582d40D4fe5445e9272f3B59f6fF80129952",
+    },
   },
   [ChainId.POLYGON_CHAIN_ID]: {
     1: {
@@ -150,7 +174,7 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x9aFF58C460a461578C433e11C4108D1c4cF77761",
       verifiedRouteAddress: "0xB24e2B830f4c78a1993F9b046089321764B28902",
-    }, 
+    },
     6: {
       protocolName: Bridge.AnySwapRouterV4,
       isMiddleware: false,
@@ -192,7 +216,13 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x969423d71b62C81d2f28d707364c9Dc4a0764c53",
       verifiedRouteAddress: "0x4D46d8c1Ac1c80538AF5002BC64B6412e4Ac1023",
-    }
+    },
+    13: {
+      protocolName: Middleware.Rainbow,
+      isMiddleware: true,
+      routeAddress: "0xF86729934C083fbEc8C796068A1fC60701Ea1207",
+      verifiedRouteAddress: "0x1f83E8a02F3869fB7fF043c89F3f31a48EfA9195r",
+    },
   },
   [ChainId.XDAI_CHAIN_ID]: {
     1: {
@@ -224,7 +254,7 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x9aFF58C460a461578C433e11C4108D1c4cF77761",
       verifiedRouteAddress: "0xFAAFb26C06a45962E97452E5d4310df2586623A2",
-    }
+    },
   },
   [ChainId.ARBITRUM_CHAIN_ID]: {
     1: {
@@ -280,7 +310,19 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
       verifiedRouteAddress: "0x3Dd7419889FF387A58D3Dad1F8B49ea1064290fB",
-    }
+    },
+    11: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38",
+      verifiedRouteAddress: "0x34d5999E737DeFa0C4DDA2512F399862ee368445",
+    },
+    12: {
+      protocolName: Middleware.Rainbow,
+      isMiddleware: true,
+      routeAddress: "0x969423d71b62C81d2f28d707364c9Dc4a0764c53",
+      verifiedRouteAddress: "0xAe21DC9F43d335BF7925E69E2d272288492d91c5",
+    },
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
     1: {
@@ -323,14 +365,26 @@ export const routesMap = {
       protocolName: Bridge.AnySwapRouterV6,
       isMiddleware: false,
       routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
-      verifiedRouteAddress: '0x09BBE4DacBf631994F2f1b70c1B18d62c19466E6'
+      verifiedRouteAddress: "0x09BBE4DacBf631994F2f1b70c1B18d62c19466E6",
     },
     8: {
       protocolName: Middleware.OneInch,
       isMiddleware: true,
       routeAddress: "0x90c8a40c38e633b5b0e0d0585b9f7fa05462caaf",
       verifiedRouteAddress: "0xAA95ED59FC4a4e0AcDeE31A8981cD8F6F2ae6445",
-    }
+    },
+    9: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
+      verifiedRouteAddress: "0x6D4F89284e06554eeEEF79215A823B6F9d7b48D8",
+    },
+    10: {
+      protocolName: Middleware.Rainbow,
+      isMiddleware: true,
+      routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
+      verifiedRouteAddress: "0xFC42BcAA16a54e7E48D0c39e4713dC5923BD551D",
+    },
   },
   [ChainId.AVAX_CHAIN_ID]: {
     1: {
@@ -374,7 +428,13 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
       verifiedRouteAddress: "0x7BdBC83a50894a3c693F9FBfAAF07776be410c8E",
-    }
+    },
+    8: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0x90c8a40c38e633b5b0e0d0585b9f7fa05462caaf",
+      verifiedRouteAddress: "0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
+    },
   },
   [ChainId.FANTOM_CHAIN_ID]: {
     1: {
@@ -418,7 +478,13 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
       verifiedRouteAddress: "0x6e520F25E66450397d02ece0166edaF46c9BF28b",
-    }
+    },
+    8: {
+      protocolName: Middleware.ZeroX,
+      isMiddleware: true,
+      routeAddress: "0x90c8a40c38e633b5b0e0d0585b9f7fa05462caaf",
+      verifiedRouteAddress: "0xA257242ceFc988e9EEdD20a1dfbEe415223A7179",
+    },
   },
   [ChainId.AURORA_CHAIN_ID]: {
     1: {
@@ -433,11 +499,11 @@ export const routesMap = {
       routeAddress: "0x31524750Cd865fF6A3540f232754Fb974c18585C",
       verifiedRouteAddress: "0x5cddbecaf8603e5e0bc771a46d48e148593351ea",
     },
-    3: { 
+    3: {
       protocolName: Middleware.OneInch,
       isMiddleware: true,
-      routeAddress: '0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a',
-      verifiedRouteAddress: '0xA898821781ba5dd78a485Bcb610b8a60bbC5357E',
-    }
-  }
+      routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
+      verifiedRouteAddress: "0xA898821781ba5dd78a485Bcb610b8a60bbC5357E",
+    },
+  },
 };

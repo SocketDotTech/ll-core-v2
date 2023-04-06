@@ -56,6 +56,14 @@ export const addresses: {
         routeId: 12,
         isMiddleware: true,
       },
+      [Middleware.ZeroX]: {
+        routeId: 13,
+        isMiddleware: true,
+      },
+      [Middleware.Rainbow]: {
+        routeId: 14,  
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -106,6 +114,14 @@ export const addresses: {
         routeId: 7,
         isMiddleware: true,
       },
+      [Middleware.ZeroX]: {
+        routeId: 8,
+        isMiddleware: true,
+      },
+      [Middleware.Rainbow]: {
+        routeId: 9,  
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -150,6 +166,10 @@ export const addresses: {
         routeId: 7,
         isMiddleware: true,
       },
+      [Middleware.ZeroX]: {
+        routeId: 8,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -192,6 +212,10 @@ export const addresses: {
       },
       [Middleware.OneInch]: {
         routeId: 7,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroX]: {
+        routeId: 8,
         isMiddleware: true,
       },
     },
@@ -240,6 +264,14 @@ export const addresses: {
       },
       [Middleware.OneInch]: {
         routeId: 8,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroX]: {
+        routeId: 9,
+        isMiddleware: true,
+      },
+      [Middleware.Rainbow]: {
+        routeId: 10,  
         isMiddleware: true,
       },
     },
@@ -296,6 +328,14 @@ export const addresses: {
       },
       [Middleware.OneInch]: {
         routeId: 10,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroX]: {
+        routeId: 11,
+        isMiddleware: true,
+      },
+      [Middleware.Rainbow]: {
+        routeId: 12,  
         isMiddleware: true,
       },
     },
@@ -383,7 +423,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 11,
+        routeId: 13,
         isMiddleware: true,
       }
     },
