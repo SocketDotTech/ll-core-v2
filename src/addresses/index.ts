@@ -40,7 +40,7 @@ export const addresses: {
         routeId: 8,
         isMiddleware: false,
       },
-      [Middleware.refuel]: {
+      [Bridge.refuel]: {
         routeId: 9,
         isMiddleware: false,
       },
@@ -94,7 +94,7 @@ export const addresses: {
         routeId: 2,
         isMiddleware: false,
       },
-      [Middleware.refuel]: {
+      [Bridge.refuel]: {
         routeId: 3,
         isMiddleware: false,
       },
@@ -150,7 +150,7 @@ export const addresses: {
         routeId: 3,
         isMiddleware: false,
       },
-      [Middleware.refuel]: {
+      [Bridge.refuel]: {
         routeId: 4,
         isMiddleware: false,
       },
