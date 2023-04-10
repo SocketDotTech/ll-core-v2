@@ -57,7 +57,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 13,
+        routeId: 15,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -115,7 +115,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 8,
+        routeId: 10,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -167,7 +167,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 8,
+        routeId: 9,
         isMiddleware: true,
       },
     },
@@ -215,7 +215,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 8,
+        routeId: 9,
         isMiddleware: true,
       },
     },
@@ -267,7 +267,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 9,
+        routeId: 11,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -331,7 +331,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 11,
+        routeId: 13,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -419,7 +419,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 15,
+        routeId: 16,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
