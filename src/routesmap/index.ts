@@ -426,6 +426,12 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38",
       verifiedRouteAddress: "0x1cC477a4B1ab759D21Aba3fdd886AdC2EeC28243",
+    },
+    12: {
+      protocolName: Bridge.Across,
+      isMiddleware: false,
+      routeAddress: "0x969423d71b62C81d2f28d707364c9Dc4a0764c53",
+      verifiedRouteAddress: "	0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
     }
   },
   [ChainId.AVAX_CHAIN_ID]: {
