@@ -247,7 +247,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 4,
+        routeId: 12,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
