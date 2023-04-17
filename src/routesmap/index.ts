@@ -92,7 +92,7 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x7c8837a279bbbf7d8B93413763176de9F65d5bB9",
       verifiedRouteAddress: "0x3E76e8674FFFD1e6495Ec719B82a86cb6a31EFf7",
-    },
+    }
   },
   [ChainId.BSC_CHAIN_ID]: {
     1: {
