@@ -93,6 +93,18 @@ export const routesMap = {
       routeAddress: "0x7c8837a279bbbf7d8B93413763176de9F65d5bB9",
       verifiedRouteAddress: "0x3E76e8674FFFD1e6495Ec719B82a86cb6a31EFf7",
     },
+    16: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0x13b81C27B588C07D04458ed7dDbdbD26D1e39bcc",
+      verifiedRouteAddress: "0x1904bC76723dc82D57083876E913d42E8DDbfDc0",
+    },
+    17: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x52560Ac678aFA1345D15474287d16Dc1eA3F78aE",
+      verifiedRouteAddress: "0xe60F1B805c4bED6703dA1C2fe5d11dEFeA0a9b65",
+    }
   },
   [ChainId.BSC_CHAIN_ID]: {
     1: {
@@ -154,6 +166,12 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
       verifiedRouteAddress: "0xE00D67F732E6ED1158553fDBE9C6a151d06bed6c",
+    },
+    11: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38",
+      verifiedRouteAddress: "0x406B7133BA1Ba7898637AEdD197f783A07b1E13f",
     },
   },
   [ChainId.POLYGON_CHAIN_ID]: {
@@ -252,6 +270,18 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0x13b81C27B588C07D04458ed7dDbdbD26D1e39bcc",
       verifiedRouteAddress: "0x7f031Ac52E2098a2F91C651584D26D9442B6eb4A",
+    },
+    17: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0x52560Ac678aFA1345D15474287d16Dc1eA3F78aE",
+      verifiedRouteAddress: "0xDDE19c4bDD0220d16495EC7D33Be25a1BDC29202",
+    },
+    18: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x1E31e376551459667cd7643440c1b21CE69065A0",
+      verifiedRouteAddress: "0x3aEffE89e6CA2a0b6937bc3BDF40065c13c9bfeA",
     }
   },
   [ChainId.XDAI_CHAIN_ID]: {
@@ -285,6 +315,12 @@ export const routesMap = {
       routeAddress: "0x9aFF58C460a461578C433e11C4108D1c4cF77761",
       verifiedRouteAddress: "0xFAAFb26C06a45962E97452E5d4310df2586623A2",
     },
+    6: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x2D1733886cFd465B0B99F1492F40847495f334C5",
+      verifiedRouteAddress: "0x33Ac3447b7707A31888d5f003234CCaBb54339e5",
+    }
   },
   [ChainId.ARBITRUM_CHAIN_ID]: {
     1: {
@@ -359,6 +395,18 @@ export const routesMap = {
       routeAddress: "0xF86729934C083fbEc8C796068A1fC60701Ea1207",
       verifiedRouteAddress: "0x8B7e6Be0e12207604cF5858b4CB8d987926a4754",
     },
+    14: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0xD7cC2571F5823caCA26A42690D2BE7803DD5393f",
+      verifiedRouteAddress: "0x7E3911efCb3FD411230bAff77835766dF2F71b24",
+    },
+    15: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x7c8837a279bbbf7d8B93413763176de9F65d5bB9",
+      verifiedRouteAddress: "0x3EC389511AF4AF02C9F3723C0fdEB105d1cC5A9C",
+    }
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
     1: {
@@ -432,6 +480,18 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x969423d71b62C81d2f28d707364c9Dc4a0764c53",
       verifiedRouteAddress: "	0xD5AA63075160B2a00Edfa3D7bB51ACdB81AF7678",
+    },
+    13: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0xF86729934C083fbEc8C796068A1fC60701Ea1207",
+      verifiedRouteAddress: "0x7E3911efCb3FD411230bAff77835766dF2F71b24",
+    },
+    14: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0xD7cC2571F5823caCA26A42690D2BE7803DD5393f",
+      verifiedRouteAddress: "0xa8b549b46CAB71ee91bfCF1861EC052c5E76EF3B",
     }
   },
   [ChainId.AVAX_CHAIN_ID]: {
@@ -488,6 +548,12 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
       verifiedRouteAddress: "0x7E486DE56b18e0EBe156B9d264E3e933242EB5dF",
+    },
+    10: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
+      verifiedRouteAddress: "0x9b52F74D5c0DAac985946f32CF45b11bb98615c7",
     }
   },
   [ChainId.FANTOM_CHAIN_ID]: {
@@ -544,6 +610,12 @@ export const routesMap = {
       isMiddleware: true,
       routeAddress: "0xa402b70FCfF3F4a8422B93Ef58E895021eAdE4F6",
       verifiedRouteAddress: "0x41e06c1Cafa528413A5430BC3A56dF59Ad84ebF8",
+    },
+    10: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
+      verifiedRouteAddress: "0x331c0edE78230d842132189C1496B31b9e7923e2",
     }
   },
   [ChainId.AURORA_CHAIN_ID]: {
@@ -565,5 +637,11 @@ export const routesMap = {
       routeAddress: "0xEd9b37342BeC8f3a2D7b000732ec87498aA6EC6a",
       verifiedRouteAddress: "0xA898821781ba5dd78a485Bcb610b8a60bbC5357E",
     },
+    4: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
+      verifiedRouteAddress: "0x359bBF6D0f8dDcBbf86f32f0aBD1B63b8F2a9D29",
+    }
   },
 };

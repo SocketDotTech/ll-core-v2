@@ -9,7 +9,7 @@ export const addresses: {
 
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 1,
+        routeId: 17,
         isMiddleware: false,
       },
       [Bridge.PolygonBridge]: {
@@ -17,7 +17,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 3,
+        routeId: 16,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -87,7 +87,7 @@ export const addresses: {
     stargateReceiver: "0x71cF3E64E42bcAEC7485AF71571d7033E5b7dF93",
     routeIds: {
       [Bridge.Celer]: {
-        routeId: 1,
+        routeId: 11,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -143,7 +143,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 1,
+        routeId: 10,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -187,7 +187,7 @@ export const addresses: {
     stargateReceiver: "0x83b2cda6A33128324ee9cb2f0360bA8a42Cec2C6",
     routeIds: {
       [Bridge.Celer]: {
-        routeId: 1,
+        routeId: 10,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -235,11 +235,11 @@ export const addresses: {
     stargateReceiver: "0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 1,
+        routeId: 14,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 2,
+        routeId: 13,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -292,12 +292,12 @@ export const addresses: {
 
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 1,
+        routeId: 15,
         isMiddleware: false,
       },
 
       [Bridge.Celer]: {
-        routeId: 2,
+        routeId: 14,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -355,7 +355,7 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 1,
+        routeId: 6,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -383,11 +383,11 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 1,
+        routeId: 18,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 2,
+        routeId: 17,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -447,7 +447,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 2,
+        routeId: 4,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
