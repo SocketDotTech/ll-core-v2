@@ -235,7 +235,7 @@ export const addresses: {
     stargateReceiver: "0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 14,
+        routeId: 15,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
@@ -292,7 +292,7 @@ export const addresses: {
 
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 15,
+        routeId: 16,
         isMiddleware: false,
       },
 
@@ -355,7 +355,7 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 6,
+        routeId: 7,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -383,7 +383,7 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 18,
+        routeId: 19,
         isMiddleware: false,
       },
       [Bridge.Celer]: {

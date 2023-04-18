@@ -282,6 +282,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x1E31e376551459667cd7643440c1b21CE69065A0",
       verifiedRouteAddress: "0x3aEffE89e6CA2a0b6937bc3BDF40065c13c9bfeA",
+    },
+    19: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0xc57D822CB3288e7b97EF8f8af0EcdcD1B783529B",
+      verifiedRouteAddress: "0x4AA9693C89D7eA6F265b853FD3c5853de85F79b2",
     }
   },
   [ChainId.XDAI_CHAIN_ID]: {
@@ -320,6 +326,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x2D1733886cFd465B0B99F1492F40847495f334C5",
       verifiedRouteAddress: "0x33Ac3447b7707A31888d5f003234CCaBb54339e5",
+    },
+    7: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x715497Be4D130F04B8442F0A1F7a9312D4e54FC4",
+      verifiedRouteAddress: "0x86bD913ac784E6EfCCC2296053C4ACEFfac127A3",
     }
   },
   [ChainId.ARBITRUM_CHAIN_ID]: {
@@ -406,6 +418,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x7c8837a279bbbf7d8B93413763176de9F65d5bB9",
       verifiedRouteAddress: "0x3EC389511AF4AF02C9F3723C0fdEB105d1cC5A9C",
+    },
+    16: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x13b81C27B588C07D04458ed7dDbdbD26D1e39bcc",
+      verifiedRouteAddress: "0xC2041617cccA437DDBfAab81b5aDD14e250B12Ab",
     }
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
@@ -492,6 +510,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xD7cC2571F5823caCA26A42690D2BE7803DD5393f",
       verifiedRouteAddress: "0xa8b549b46CAB71ee91bfCF1861EC052c5E76EF3B",
+    },
+    15: {
+      protocolName: Bridge.Hop,
+      isMiddleware: false,
+      routeAddress: "0x7c8837a279bbbf7d8B93413763176de9F65d5bB9",
+      verifiedRouteAddress: "0x47e983e30E97E4957C805244c574B74fb3D2BF47",
     }
   },
   [ChainId.AVAX_CHAIN_ID]: {
