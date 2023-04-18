@@ -644,4 +644,20 @@ export const routesMap = {
       verifiedRouteAddress: "0x359bBF6D0f8dDcBbf86f32f0aBD1B63b8F2a9D29",
     }
   },
+  [ChainId.POLYGON_ZKEVM_CHAIN_ID]: {
+    385: {
+      protocolName: Bridge.AnySwapRouterV6,
+      isMiddleware: false,
+      routeAddress:"0x1768C1D2900f1408D44FbB1EdCc306F94aF852ae",
+      verifiedRouteAddress: "0x1768C1D2900f1408D44FbB1EdCc306F94aF852ae",
+    }
+  },
+  [ChainId.ZKSYNC_ERA_CHAIN_ID]: {
+    385: {
+      protocolName: Bridge.AnySwapRouterV6,
+      isMiddleware: false,
+      routeAddress:"0x0c8F5C755233401257b3Fda01816eC17Ae54642d",
+      verifiedRouteAddress: "0x0c8F5C755233401257b3Fda01816eC17Ae54642d",
+    }
+  }
 };
