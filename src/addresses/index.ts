@@ -61,7 +61,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 14,  
+        routeId: 14,
         isMiddleware: true,
       },
     },
@@ -119,7 +119,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 9,  
+        routeId: 9,
         isMiddleware: true,
       },
     },
@@ -271,7 +271,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 10,  
+        routeId: 10,
         isMiddleware: true,
       },
     },
@@ -335,7 +335,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 12,  
+        routeId: 12,
         isMiddleware: true,
       },
     },
@@ -425,7 +425,7 @@ export const addresses: {
       [Middleware.Rainbow]: {
         routeId: 13,
         isMiddleware: true,
-      }
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -464,6 +464,24 @@ export const addresses: {
       chainId: 1313161554,
       name: "Aurora",
       isL1: false,
+    },
+  },
+  [ChainId.ZKSYNC_ERA_CHAIN_ID]: {
+    socketGateway: "0xaDdE7028e7ec226777e5dea5D53F6457C21ec7D6",
+    routeIds: {
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
+    },
+  },
+  [ChainId.POLYGON_ZKEVM_CHAIN_ID]: {
+    socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
+    routeIds: {
+      [Bridge.AnySwapRouterV6]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
     },
   },
 };
