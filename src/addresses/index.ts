@@ -49,7 +49,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 11,
+        routeId: 18,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -107,7 +107,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 6,
+        routeId: 12,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -159,7 +159,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 6,
+        routeId: 11,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -207,7 +207,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 6,
+        routeId: 11,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -259,7 +259,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 7,
+        routeId: 16,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -323,7 +323,7 @@ export const addresses: {
       },
 
       [Bridge.AnySwapRouterV6]: {
-        routeId: 8,
+        routeId: 17,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -471,6 +471,10 @@ export const addresses: {
     routeIds: {
       [Bridge.AnySwapRouterV6]: {
         routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.Celer]: {
+        routeId: 386,
         isMiddleware: false,
       },
     },
