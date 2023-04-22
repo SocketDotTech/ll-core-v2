@@ -411,7 +411,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
-        routeId: 8,
+        routeId: 20,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
