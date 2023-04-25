@@ -52,6 +52,10 @@ export const addresses: {
         routeId: 18,
         isMiddleware: false,
       },
+      [Bridge.CCTP]: {
+        routeId: 386,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 12,
         isMiddleware: true,
@@ -64,6 +68,7 @@ export const addresses: {
         routeId: 14,
         isMiddleware: true,
       },
+
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
