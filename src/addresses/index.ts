@@ -376,6 +376,10 @@ export const addresses: {
         routeId: 3,
         isMiddleware: false,
       },
+      [Bridge.Connext]: {
+        routeId: 385,
+        isMiddleware: false,
+      }
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
