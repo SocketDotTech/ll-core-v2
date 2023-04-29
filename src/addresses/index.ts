@@ -56,6 +56,10 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
+      [Bridge.Connext]: {
+        routeId: 387,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 12,
         isMiddleware: true,
@@ -113,6 +117,10 @@ export const addresses: {
       },
       [Bridge.AnySwapRouterV6]: {
         routeId: 12,
+        isMiddleware: false,
+      },
+      [Bridge.Connext]: {
+        routeId: 385,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -270,6 +278,10 @@ export const addresses: {
       },
       [Bridge.AnySwapRouterV6]: {
         routeId: 16,
+        isMiddleware: false,
+      },
+      [Bridge.Connext]: {
+        routeId: 387,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -430,6 +442,10 @@ export const addresses: {
       },
       [Bridge.AnySwapRouterV6]: {
         routeId: 21,
+        isMiddleware: false,
+      },
+      [Bridge.Connext]: { 
+        routeId: 391,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
