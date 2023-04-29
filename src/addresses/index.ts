@@ -33,7 +33,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 7,
+        routeId: 388,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -265,7 +265,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 12,
+        routeId: 388,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -327,7 +327,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 4,
+        routeId: 388,
         isMiddleware: false,
       },
 
@@ -425,7 +425,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 4,
+        routeId: 392,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
