@@ -336,6 +336,10 @@ export const addresses: {
         routeId: 17,
         isMiddleware: false,
       },
+      [Bridge.Connext]: {
+        routeId: 386,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 10,
         isMiddleware: true,
