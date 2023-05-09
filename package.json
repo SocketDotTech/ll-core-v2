@@ -29,5 +29,8 @@
     "plugins": [
       "@typescript-eslint/eslint-plugin"
     ]
+  },
+  "dependencies": {
+    "@uniswap/permit2-sdk": "^1.2.0"
   }
 }
