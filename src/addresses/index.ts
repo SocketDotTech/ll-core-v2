@@ -512,6 +512,10 @@ export const addresses: {
         routeId: 4,
         isMiddleware: false,
       },
+      [Bridge.Synapse]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 3,
         isMiddleware: true,

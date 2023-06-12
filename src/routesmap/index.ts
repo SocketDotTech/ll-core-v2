@@ -708,6 +708,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xE8704Ef6211F8988Ccbb11badC89841808d66890",
       verifiedRouteAddress: "0x359bBF6D0f8dDcBbf86f32f0aBD1B63b8F2a9D29",
+    },
+    5: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0xA32609F188d896F527Aa67384079B944639D8135",
+      verifiedRouteAddress: "0xA32609F188d896F527Aa67384079B944639D8135",
     }
   },
   [ChainId.POLYGON_ZKEVM_CHAIN_ID]: {
