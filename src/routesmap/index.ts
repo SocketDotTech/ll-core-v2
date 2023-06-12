@@ -104,6 +104,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x52560Ac678aFA1345D15474287d16Dc1eA3F78aE",
       verifiedRouteAddress: "0xe60F1B805c4bED6703dA1C2fe5d11dEFeA0a9b65",
+    },
+    18: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0x399ee2C4748f0e9c2985F51BeF45f0532FdaD66D",
+      verifiedRouteAddress: "0x399ee2C4748f0e9c2985F51BeF45f0532FdaD66D",
     }
   },
   [ChainId.BSC_CHAIN_ID]: {
@@ -173,6 +179,12 @@ export const routesMap = {
       routeAddress: "0xa97bf2f7c26C43c010c349F52f5eA5dC49B2DD38",
       verifiedRouteAddress: "0x406B7133BA1Ba7898637AEdD197f783A07b1E13f",
     },
+    12: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0xFd9f91749C5738FE27aA50FE42Df43A6D9616B1C",
+      verifiedRouteAddress: "0xFd9f91749C5738FE27aA50FE42Df43A6D9616B1C",
+    }
   },
   [ChainId.POLYGON_CHAIN_ID]: {
     1: {
@@ -288,6 +300,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xc57D822CB3288e7b97EF8f8af0EcdcD1B783529B",
       verifiedRouteAddress: "0x4AA9693C89D7eA6F265b853FD3c5853de85F79b2",
+    },
+    20: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0xbb5852E0ae9730D935dCE4eFD6A7Ce2b3c733946",
+      verifiedRouteAddress: "0xbb5852E0ae9730D935dCE4eFD6A7Ce2b3c733946",
     }
   },
   [ChainId.XDAI_CHAIN_ID]: {
@@ -424,6 +442,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x13b81C27B588C07D04458ed7dDbdbD26D1e39bcc",
       verifiedRouteAddress: "0xC2041617cccA437DDBfAab81b5aDD14e250B12Ab",
+    },
+    17: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0x978dC2A6d51769867e7eC893459bCe68E83b7661",
+      verifiedRouteAddress: "0x978dC2A6d51769867e7eC893459bCe68E83b7661",
     }
   },
   [ChainId.OPTIMISM_CHAIN_ID]: {
@@ -516,6 +540,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0x7c8837a279bbbf7d8B93413763176de9F65d5bB9",
       verifiedRouteAddress: "0x47e983e30E97E4957C805244c574B74fb3D2BF47",
+    },
+    16: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0xfDbA28D084E157938CFca7e7091C17bc4D6CD2f0",
+      verifiedRouteAddress: "0xfDbA28D084E157938CFca7e7091C17bc4D6CD2f0",
     }
   },
   [ChainId.AVAX_CHAIN_ID]: {
@@ -578,6 +608,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
       verifiedRouteAddress: "0x9b52F74D5c0DAac985946f32CF45b11bb98615c7",
+    },
+    11: {
+      protocolName: Bridge.Synapse,
+      isMiddleware: false,
+      routeAddress: "0x5adde24B6a11B86C23a4f61c236A8795BD4aa2bB",
+      verifiedRouteAddress: "0x5adde24B6a11B86C23a4f61c236A8795BD4aa2bB",
     }
   },
   [ChainId.FANTOM_CHAIN_ID]: {
@@ -640,6 +676,12 @@ export const routesMap = {
       isMiddleware: false,
       routeAddress: "0xc1B718522E15CD42C4Ac385a929fc2B51f5B892e",
       verifiedRouteAddress: "0x331c0edE78230d842132189C1496B31b9e7923e2",
+    },
+    11: {
+      protocolName: Bridge.Celer,
+      isMiddleware: false,
+      routeAddress: "0x1A8f60f05239EEAd23A27f32416B160D6a14277e",
+      verifiedRouteAddress: "0x1A8f60f05239EEAd23A27f32416B160D6a14277e",
     }
   },
   [ChainId.AURORA_CHAIN_ID]: {
