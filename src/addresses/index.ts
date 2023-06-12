@@ -60,6 +60,10 @@ export const addresses: {
         routeId: 387,
         isMiddleware: false,
       },
+      [Bridge.Synapse]: {
+        routeId: 389,
+        isMiddleware: false,
+      }, 
       [Middleware.OneInch]: {
         routeId: 12,
         isMiddleware: true,
@@ -123,6 +127,10 @@ export const addresses: {
         routeId: 385,
         isMiddleware: false,
       },
+      [Bridge.Synapse]: {
+        routeId: 386,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 7,
         isMiddleware: true,
@@ -175,6 +183,10 @@ export const addresses: {
         routeId: 11,
         isMiddleware: false,
       },
+      [Bridge.Synapse]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 7,
         isMiddleware: true,
@@ -225,6 +237,10 @@ export const addresses: {
       },
       [Bridge.CCTP]: {
         routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.Synapse]: {
+        routeId: 386,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -282,6 +298,10 @@ export const addresses: {
       },
       [Bridge.Connext]: {
         routeId: 387,
+        isMiddleware: false,
+      },
+      [Bridge.Synapse]: {
+        routeId: 389,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -350,6 +370,10 @@ export const addresses: {
       },
       [Bridge.Connext]: {
         routeId: 386,
+        isMiddleware: false,
+      },
+      [Bridge.Synapse]: {
+        routeId: 391,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -448,6 +472,10 @@ export const addresses: {
         routeId: 391,
         isMiddleware: false,
       },
+      [Bridge.Synapse]: { 
+        routeId: 393,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 9,
         isMiddleware: true,
@@ -482,6 +510,10 @@ export const addresses: {
       },
       [Bridge.Celer]: {
         routeId: 4,
+        isMiddleware: false,
+      },
+      [Bridge.Synapse]: {
+        routeId: 385,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
