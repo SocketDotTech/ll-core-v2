@@ -543,6 +543,14 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
+      [Bridge.refuel]: {
+        routeId: 387,
+        isMiddleware: false,
+      },
+      [Middleware.OneInch]: {
+        routeId: 388,
+        isMiddleware: true,
+      }
     },
   },
   [ChainId.POLYGON_ZKEVM_CHAIN_ID]: {
@@ -556,6 +564,10 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
+      [Bridge.Celer]: {
+        routeId: 387,
+        isMiddleware: false,
+      }
     },
   },
 };
