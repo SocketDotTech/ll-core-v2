@@ -678,7 +678,7 @@ export const routesMap = {
       verifiedRouteAddress: "0x331c0edE78230d842132189C1496B31b9e7923e2",
     },
     11: {
-      protocolName: Bridge.Celer,
+      protocolName: Bridge.Synapse,
       isMiddleware: false,
       routeAddress: "0x1A8f60f05239EEAd23A27f32416B160D6a14277e",
       verifiedRouteAddress: "0x1A8f60f05239EEAd23A27f32416B160D6a14277e",
