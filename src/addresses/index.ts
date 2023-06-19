@@ -289,7 +289,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 6,
+        routeId: 390,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -331,7 +331,6 @@ export const addresses: {
   [ChainId.ARBITRUM_CHAIN_ID]: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     stargateReceiver: "0x88616cB9499F32Ff6A784B66B60aABF0bCf0df39",
-
     routeIds: {
       [Bridge.Hop]: {
         routeId: 16,
@@ -356,7 +355,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 6,
+        routeId: 392,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
