@@ -13,17 +13,18 @@ export enum Bridge {
   Stargate = "stargate",
   Connext = "connext",
   CCTP = "cctp",
-  Synapse = "synapse"
+  Synapse = "synapse",
 }
 
 export enum Controller {
   RefuelSwapAndBridge = "refuel-swap-bridge",
+  FeesTakerController = "fee-taker-controller",
 }
 
 export enum Middleware {
   OneInch = "oneinch",
   ZeroX = "zerox",
-  Rainbow = 'rainbow',
+  Rainbow = "rainbow",
   refuelOneInch = "refuel-oneinch",
   refuelRainbow = "refuel-rainbow",
   refuelZeroX = "refuel-zerox",

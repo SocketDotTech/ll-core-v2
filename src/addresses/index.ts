@@ -63,7 +63,7 @@ export const addresses: {
       [Bridge.Synapse]: {
         routeId: 389,
         isMiddleware: false,
-      }, 
+      },
       [Middleware.OneInch]: {
         routeId: 12,
         isMiddleware: true,
@@ -76,11 +76,13 @@ export const addresses: {
         routeId: 14,
         isMiddleware: true,
       },
-
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
       },
     },
     chainInfo: {
@@ -148,6 +150,9 @@ export const addresses: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
       },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
     },
     chainInfo: {
       chainId: 56,
@@ -200,6 +205,9 @@ export const addresses: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
       },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
     },
     chainInfo: {
       chainId: 250,
@@ -251,11 +259,13 @@ export const addresses: {
         routeId: 9,
         isMiddleware: true,
       },
-  
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
       },
     },
     chainInfo: {
@@ -320,6 +330,9 @@ export const addresses: {
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
       },
     },
     chainInfo: {
@@ -392,6 +405,9 @@ export const addresses: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
       },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
     },
     chainInfo: {
       chainId: 42161,
@@ -418,11 +434,14 @@ export const addresses: {
       [Bridge.Connext]: {
         routeId: 385,
         isMiddleware: false,
-      }
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 1,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -467,11 +486,11 @@ export const addresses: {
         routeId: 21,
         isMiddleware: false,
       },
-      [Bridge.Connext]: { 
+      [Bridge.Connext]: {
         routeId: 391,
         isMiddleware: false,
       },
-      [Bridge.Synapse]: { 
+      [Bridge.Synapse]: {
         routeId: 393,
         isMiddleware: false,
       },
@@ -491,6 +510,9 @@ export const addresses: {
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
       },
     },
     chainInfo: {
@@ -524,6 +546,9 @@ export const addresses: {
       [Controller.RefuelSwapAndBridge]: {
         controllerId: 0,
       },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
     },
     chainInfo: {
       chainId: 1313161554,
@@ -549,7 +574,15 @@ export const addresses: {
       [Middleware.OneInch]: {
         routeId: 388,
         isMiddleware: true,
-      }
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
     },
   },
   [ChainId.POLYGON_ZKEVM_CHAIN_ID]: {
@@ -566,7 +599,15 @@ export const addresses: {
       [Bridge.Celer]: {
         routeId: 387,
         isMiddleware: false,
-      }
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
     },
   },
 };
