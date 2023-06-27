@@ -577,11 +577,8 @@ export const addresses: {
       },
     },
     controllerIds: {
-      [Controller.RefuelSwapAndBridge]: {
-        controllerId: 0,
-      },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 0,
       },
     },
   },
@@ -602,11 +599,8 @@ export const addresses: {
       },
     },
     controllerIds: {
-      [Controller.RefuelSwapAndBridge]: {
-        controllerId: 0,
-      },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 0,
       },
     },
   },
