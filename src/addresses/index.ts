@@ -299,7 +299,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 390,
+        routeId: 391,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
