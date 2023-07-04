@@ -303,7 +303,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 391,
+        routeId: 390,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
