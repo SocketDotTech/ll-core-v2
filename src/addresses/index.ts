@@ -64,6 +64,10 @@ export const addresses: {
         routeId: 389,
         isMiddleware: false,
       },
+      [Bridge.ZkSyncNative]: {
+        routeId: 390,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 12,
         isMiddleware: true,
