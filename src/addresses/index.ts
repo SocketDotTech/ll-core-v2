@@ -57,7 +57,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 387,
+        routeId: 393,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -311,7 +311,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 387,
+        routeId: 394,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
