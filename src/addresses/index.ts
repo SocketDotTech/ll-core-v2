@@ -56,6 +56,10 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
+      [Bridge.ZoraBridge]: {
+        routeId: 394,
+        isMiddleware: false,
+      },
       [Bridge.Connext]: {
         routeId: 393,
         isMiddleware: false,
@@ -349,6 +353,10 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     stargateReceiver: "0x88616cB9499F32Ff6A784B66B60aABF0bCf0df39",
     routeIds: {
+      [Bridge.CCTP]: {
+        routeId: 396,
+        isMiddleware: false,
+      },
       [Bridge.Hop]: {
         routeId: 16,
         isMiddleware: false,

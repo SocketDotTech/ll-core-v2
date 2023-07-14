@@ -14,7 +14,8 @@ export enum Bridge {
   Connext = "connext",
   CCTP = "cctp",
   Synapse = "synapse",
-  ZkSyncNative = "zksync-native"
+  ZkSyncNative = "zksync-native",
+  ZoraBridge = "zora-bridge",
 }
 
 export enum Controller {
