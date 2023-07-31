@@ -624,7 +624,7 @@ export const addresses: {
     socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 185,
+        routeId: 385,
         isMiddleware: false,
      }
     }
