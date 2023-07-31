@@ -94,7 +94,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -163,7 +163,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -218,7 +218,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -277,7 +277,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -344,7 +344,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -422,7 +422,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -457,7 +457,7 @@ export const addresses: {
         controllerId: 1,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 2,
+        controllerId: 3,
       },
     },
     chainInfo: {
@@ -528,7 +528,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -563,7 +563,7 @@ export const addresses: {
         controllerId: 0,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 2,
       },
     },
     chainInfo: {
@@ -616,7 +616,7 @@ export const addresses: {
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
-        controllerId: 0,
+        controllerId: 1,
       },
     },
   },
@@ -626,7 +626,15 @@ export const addresses: {
       [Bridge.Hop]: {
         routeId: 385,
         isMiddleware: false,
-     }
-    }
-  }
+      },
+    },
+    controllerIds: {
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+    },
+  },
 };
