@@ -627,6 +627,14 @@ export const addresses: {
         routeId: 385,
         isMiddleware: false,
       },
+      [Bridge.Synapse]: {
+        routeId: 387,
+        isMiddleware: false,
+      },
+      [Bridge.refuel]: {
+        routeId: 386,
+        isMiddleware: false,
+      }
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
