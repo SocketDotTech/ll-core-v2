@@ -628,13 +628,13 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
-        routeId: 387,
+        routeId: 388,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
         routeId: 386,
         isMiddleware: false,
-      }
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
