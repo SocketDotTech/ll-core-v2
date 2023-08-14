@@ -635,6 +635,10 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
+      [Middleware.Rainbow]: {
+        routeId: 389,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
