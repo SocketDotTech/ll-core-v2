@@ -9,7 +9,7 @@ export const addresses: {
 
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 17,
+        routeId: 20,
         isMiddleware: false,
       },
       [Bridge.PolygonBridge]: {
@@ -17,7 +17,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 16,
+        routeId: 22,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -77,7 +77,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 12,
+        routeId: 21,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -85,7 +85,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 14,
+        routeId: 397,
         isMiddleware: true,
       },
     },
@@ -114,7 +114,7 @@ export const addresses: {
     stargateReceiver: "0x71cF3E64E42bcAEC7485AF71571d7033E5b7dF93",
     routeIds: {
       [Bridge.Celer]: {
-        routeId: 11,
+        routeId: 13,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -146,7 +146,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 7,
+        routeId: 14,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -154,7 +154,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 9,
+        routeId: 389,
         isMiddleware: true,
       },
     },
@@ -181,7 +181,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 10,
+        routeId: 12,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -205,7 +205,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 7,
+        routeId: 13,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -232,7 +232,7 @@ export const addresses: {
     stargateReceiver: "0x83b2cda6A33128324ee9cb2f0360bA8a42Cec2C6",
     routeIds: {
       [Bridge.Celer]: {
-        routeId: 10,
+        routeId: 12,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -264,7 +264,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 7,
+        routeId: 13,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -291,11 +291,11 @@ export const addresses: {
     stargateReceiver: "0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 15,
+        routeId: 17,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 13,
+        routeId: 18,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -327,7 +327,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 8,
+        routeId: 19,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -335,7 +335,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 10,
+        routeId: 395,
         isMiddleware: true,
       },
     },
@@ -362,12 +362,12 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Hop]: {
-        routeId: 16,
+        routeId: 18,
         isMiddleware: false,
       },
 
       [Bridge.Celer]: {
-        routeId: 14,
+        routeId: 19,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -405,7 +405,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 10,
+        routeId: 20,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -413,7 +413,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 12,
+        routeId: 397,
         isMiddleware: true,
       },
     },
@@ -436,11 +436,11 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 7,
+        routeId: 8,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 5,
+        routeId: 9,
         isMiddleware: true,
       },
       [Bridge.refuel]: {
@@ -471,11 +471,11 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 19,
+        routeId: 22,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 17,
+        routeId: 23,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
@@ -511,7 +511,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 9,
+        routeId: 24,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
@@ -519,7 +519,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 13,
+        routeId: 396,
         isMiddleware: true,
       },
     },
@@ -546,7 +546,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 4,
+        routeId: 5,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -554,7 +554,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 3,
+        routeId: 6,
         isMiddleware: true,
       },
     },
@@ -588,8 +588,12 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 388,
+        routeId: 389,
         isMiddleware: true,
+      },
+      [Bridge.Across]: {
+        routeId: 390,
+        isMiddleware: false,
       },
     },
     controllerIds: {
@@ -610,7 +614,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 387,
+        routeId: 388,
         isMiddleware: false,
       },
     },
@@ -624,7 +628,7 @@ export const addresses: {
     socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 385,
+        routeId: 390,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -638,6 +642,14 @@ export const addresses: {
       [Middleware.Rainbow]: {
         routeId: 389,
         isMiddleware: true,
+      },
+      [Middleware.OneInch]: {
+        routeId: 391,
+        isMiddleware: true,
+      },
+      [Bridge.Across]: {
+        routeId: 392,
+        isMiddleware: false,
       },
     },
     controllerIds: {
