@@ -592,7 +592,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Bridge.Across]: {
-        routeId: 390,
+        routeId: 391,
         isMiddleware: false,
       },
     },
