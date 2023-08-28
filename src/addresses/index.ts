@@ -651,6 +651,10 @@ export const addresses: {
         routeId: 392,
         isMiddleware: false,
       },
+      [Bridge.Stargate]: {
+        routeId: 393,
+        isMiddleware: false,
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
