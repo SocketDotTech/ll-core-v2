@@ -290,6 +290,10 @@ export const addresses: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     stargateReceiver: "0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae",
     routeIds: {
+      [Bridge.CCTP]: {
+        routeId:396,
+        isMiddleware: false,
+      },
       [Bridge.Hop]: {
         routeId: 17,
         isMiddleware: false,
