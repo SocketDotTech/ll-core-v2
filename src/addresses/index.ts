@@ -65,7 +65,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 393,
+        routeId: 398,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -138,7 +138,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 385,
+        routeId: 390,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -323,7 +323,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 394,
+        routeId: 397,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -401,7 +401,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 395,
+        routeId: 398,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
@@ -452,7 +452,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 385,
+        routeId: 386,
         isMiddleware: false,
       },
     },
@@ -508,7 +508,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Connext]: {
-        routeId: 391,
+        routeId: 397,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
