@@ -1,9 +1,10 @@
 {
   "name": "@socket.tech/ll-core-v2",
   "version": "0.0.60",
+  "version": "0.0.62",
   "description": "Core package for socket liquidity layer",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public"
   },

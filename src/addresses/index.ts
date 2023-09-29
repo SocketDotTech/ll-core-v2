@@ -37,7 +37,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 392,
+        routeId: 399,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -126,7 +126,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 388,
+        routeId: 391,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV4]: {
@@ -185,7 +185,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 387,
+        routeId: 388,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -248,7 +248,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 388,
+        routeId: 389,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -315,7 +315,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 393,
+        routeId: 398,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -388,7 +388,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 394,
+        routeId: 399,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -473,6 +473,7 @@ export const addresses: {
 
   [ChainId.POLYGON_CHAIN_ID]: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
+    stargateReceiver: "0x8DfeB2e0B392f0033C8685E35FB4763d88a70d12",
     routeIds: {
       [Bridge.Hop]: {
         routeId: 22,
@@ -491,7 +492,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 395,
+        routeId: 399,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV4]: {
@@ -656,7 +657,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 393,
+        routeId: 394,
         isMiddleware: false,
       },
     },
