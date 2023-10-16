@@ -17,6 +17,7 @@ export enum Bridge {
   ZkSyncNative = "zksync-native",
   ZoraBridge = "zora-bridge",
   BaseBridge = "base-bridge",
+  Symbiosis = "symbiosis"
 }
 
 export enum Controller {
