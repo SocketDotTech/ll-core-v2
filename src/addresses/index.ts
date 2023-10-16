@@ -37,7 +37,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 399,
+        routeId: 400,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -315,7 +315,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 398,
+        routeId: 399,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -388,7 +388,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 399,
+        routeId: 400,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -657,7 +657,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 394,
+        routeId: 395,
         isMiddleware: false,
       },
     },
