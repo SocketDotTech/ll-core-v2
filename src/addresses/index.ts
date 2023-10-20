@@ -76,6 +76,10 @@ export const addresses: {
         routeId: 390,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 401,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 21,
         isMiddleware: true,
@@ -640,6 +644,10 @@ export const addresses: {
       },
       [Bridge.Celer]: {
         routeId: 388,
+        isMiddleware: false,
+      },
+      [Bridge.Symbiosis]: {
+        routeId: 389,
         isMiddleware: false,
       },
     },
