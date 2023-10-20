@@ -76,6 +76,10 @@ export const addresses: {
         routeId: 390,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 401,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 21,
         isMiddleware: true,
@@ -143,6 +147,10 @@ export const addresses: {
       },
       [Bridge.Synapse]: {
         routeId: 386,
+        isMiddleware: false,
+      },
+      [Bridge.Symbiosis]: {
+        routeId: 392,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -263,6 +271,10 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 390,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 13,
         isMiddleware: true,
@@ -328,6 +340,10 @@ export const addresses: {
       },
       [Bridge.Synapse]: {
         routeId: 389,
+        isMiddleware: false,
+      },
+      [Bridge.Symbiosis]: {
+        routeId: 400,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -406,6 +422,10 @@ export const addresses: {
       },
       [Bridge.Synapse]: {
         routeId: 391,
+        isMiddleware: false,
+      },
+      [Bridge.Symbiosis]: {
+        routeId: 401,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -515,6 +535,10 @@ export const addresses: {
         routeId: 393,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 401,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 24,
         isMiddleware: true,
@@ -622,6 +646,10 @@ export const addresses: {
         routeId: 388,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 389,
+        isMiddleware: false,
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
@@ -658,6 +686,10 @@ export const addresses: {
       },
       [Bridge.Stargate]: {
         routeId: 395,
+        isMiddleware: false,
+      },
+      [Bridge.BaseBridge]: {
+        routeId: 396,
         isMiddleware: false,
       },
     },
