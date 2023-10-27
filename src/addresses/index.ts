@@ -692,6 +692,10 @@ export const addresses: {
         routeId: 396,
         isMiddleware: false,
       },
+      [Bridge.CCTP]: {
+        routeId: 397,
+        isMiddleware: false,
+      }
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
