@@ -85,7 +85,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 15,
+        routeId: 402,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -158,7 +158,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 10,
+        routeId: 393,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -217,7 +217,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 9,
+        routeId: 389,
         isMiddleware: true,
       },
     },
@@ -280,7 +280,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 9,
+        routeId: 391,
         isMiddleware: true,
       },
     },
@@ -351,7 +351,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 11,
+        routeId: 401,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -433,7 +433,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 13,
+        routeId: 402,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -544,7 +544,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 16,
+        routeId: 402,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -678,6 +678,10 @@ export const addresses: {
       },
       [Middleware.OneInch]: {
         routeId: 391,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroX]: {
+        routeId: 402,
         isMiddleware: true,
       },
       [Bridge.Across]: {
