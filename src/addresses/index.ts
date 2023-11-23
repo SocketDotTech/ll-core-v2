@@ -80,6 +80,10 @@ export const addresses: {
         routeId: 401,
         isMiddleware: false,
       },
+      [Bridge.GnosisNative]: {
+        routeId: 403,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 21,
         isMiddleware: true,
