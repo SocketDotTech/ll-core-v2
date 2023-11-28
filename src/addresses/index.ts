@@ -685,7 +685,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 402,
+        routeId: 398,
         isMiddleware: true,
       },
       [Bridge.Across]: {
