@@ -721,6 +721,14 @@ export const addresses: {
         routeId: 385,
         isMiddleware: false,
       }
-    }
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+    },
   }
 };
