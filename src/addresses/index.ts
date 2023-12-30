@@ -543,6 +543,10 @@ export const addresses: {
         routeId: 401,
         isMiddleware: false,
       },
+      [Bridge.CCTP]: {
+        routeId: 403,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 24,
         isMiddleware: true,
