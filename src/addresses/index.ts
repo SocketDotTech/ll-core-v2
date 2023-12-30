@@ -57,7 +57,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.BaseBridge]: {
-        routeId: 395,
+        routeId: 405,
         isMiddleware: false,
       },
       [Bridge.ZoraBridge]: {
