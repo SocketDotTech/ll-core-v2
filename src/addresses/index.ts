@@ -96,6 +96,10 @@ export const addresses: {
         routeId: 397,
         isMiddleware: true,
       },
+      wrappedTokenSwapperImpl: {
+        routeId: 406,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -167,6 +171,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 389,
+        isMiddleware: true,
+      },
+      wrappedTokenSwapperImpl: {
+        routeId: 394,
         isMiddleware: true,
       },
     },
@@ -287,6 +295,10 @@ export const addresses: {
         routeId: 391,
         isMiddleware: true,
       },
+      wrappedTokenSwapperImpl: {
+        routeId: 392,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -360,6 +372,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 395,
+        isMiddleware: true,
+      },
+      wrappedTokenSwapperImpl: {
+        routeId: 402,
         isMiddleware: true,
       },
     },
@@ -442,6 +458,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 397,
+        isMiddleware: true,
+      },
+      wrappedTokenSwapperImpl: {
+        routeId: 403,
         isMiddleware: true,
       },
     },
@@ -557,6 +577,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 396,
+        isMiddleware: true,
+      },
+      wrappedTokenSwapperImpl: {
+        routeId: 404,
         isMiddleware: true,
       },
     },
@@ -707,7 +731,11 @@ export const addresses: {
       [Bridge.CCTP]: {
         routeId: 397,
         isMiddleware: false,
-      }
+      },
+      wrappedTokenSwapperImpl: {
+        routeId: 399,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
