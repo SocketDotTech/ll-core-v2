@@ -53,7 +53,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.CCTP]: {
-        routeId: 386,
+        routeId: 407,
         isMiddleware: false,
       },
       [Bridge.BaseBridge]: {
@@ -319,7 +319,7 @@ export const addresses: {
     stargateReceiver: "0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae",
     routeIds: {
       [Bridge.CCTP]: {
-        routeId:396,
+        routeId: 396,
         isMiddleware: false,
       },
       [Bridge.Hop]: {
@@ -752,7 +752,7 @@ export const addresses: {
       [Bridge.Hop]: {
         routeId: 385,
         isMiddleware: false,
-      }
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -762,5 +762,5 @@ export const addresses: {
         controllerId: 1,
       },
     },
-  }
+  },
 };
