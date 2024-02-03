@@ -295,6 +295,10 @@ export const addresses: {
         routeId: 391,
         isMiddleware: true,
       },
+      [Middleware.Rainbow]: {
+        routeId: 393,
+        isMiddleware: true,
+      },
       wrappedTokenSwapperImpl: {
         routeId: 392,
         isMiddleware: true,
