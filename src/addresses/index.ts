@@ -25,7 +25,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.ArbitrumBridge]: {
-        routeId: 5,
+        routeId: 409,
         isMiddleware: false,
       },
       [Bridge.OptimismBridge]: {
@@ -37,7 +37,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 400,
+        routeId: 408,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -138,7 +138,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 391,
+        routeId: 395,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV4]: {
@@ -268,7 +268,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 389,
+        routeId: 394,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -347,7 +347,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 399,
+        routeId: 403,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV6]: {
@@ -428,7 +428,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 400,
+        routeId: 404,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -540,7 +540,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 399,
+        routeId: 405,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV4]: {
@@ -725,7 +725,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 395,
+        routeId: 401,
         isMiddleware: false,
       },
       [Bridge.BaseBridge]: {
