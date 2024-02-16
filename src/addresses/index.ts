@@ -1,4 +1,6 @@
-import { ChainId, Bridge, Middleware, Controller } from "../constants/types";
+import { Bridge, ChainId, Middleware } from "@socket.tech/ll-core";
+import { Controller } from "../constants/types";
+
 import { Address } from "./type";
 export const addresses: {
   [chainId: number]: Address;
@@ -82,6 +84,10 @@ export const addresses: {
       },
       [Bridge.GnosisNative]: {
         routeId: 403,
+        isMiddleware: false,
+      },
+      [Bridge.MantleNative]: {
+        routeId: 411,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
