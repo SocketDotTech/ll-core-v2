@@ -102,6 +102,11 @@
   dependencies:
     any-observable "^0.3.0"
 
+"@socket.tech/ll-core@^0.1.54":
+  version "0.1.54"
+  resolved "https://registry.yarnpkg.com/@socket.tech/ll-core/-/ll-core-0.1.54.tgz#8d7eef5c73c237e3787233d6a06fab008cd1ab7b"
+  integrity sha512-TSO0ZcDGyYgAb6y2A6m0Mwb8KcwdJkZAGDwxVHznJBmr6VqagFg/5364dbq507gxWq5lle1t2iYTHLKtRjemcA==
+
 "@types/glob@^7.1.1":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.2.0.tgz#bc1b5bf3aa92f25bd5dd39f35c57361bdce5b2eb"

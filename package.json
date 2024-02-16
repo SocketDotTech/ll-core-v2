@@ -29,5 +29,8 @@
     "plugins": [
       "@typescript-eslint/eslint-plugin"
     ]
+  },
+  "dependencies": {
+    "@socket.tech/ll-core": "^0.1.54"
   }
 }
