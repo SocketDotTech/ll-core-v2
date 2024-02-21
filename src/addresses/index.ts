@@ -79,7 +79,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 401,
+        routeId: 412,
         isMiddleware: false,
       },
       [Bridge.GnosisNative]: {
@@ -164,7 +164,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 392,
+        routeId: 396,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -290,7 +290,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 390,
+        routeId: 395,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -369,7 +369,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 400,
+        routeId: 405,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -455,7 +455,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 401,
+        routeId: 406,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -570,7 +570,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 401,
+        routeId: 406,
         isMiddleware: false,
       },
       [Bridge.CCTP]: {
@@ -689,7 +689,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Symbiosis]: {
-        routeId: 389,
+        routeId: 390,
         isMiddleware: false,
       },
     },
@@ -738,6 +738,10 @@ export const addresses: {
         routeId: 396,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 403,
+        isMiddleware: false,
+      },
       [Bridge.CCTP]: {
         routeId: 397,
         isMiddleware: false,
@@ -760,6 +764,27 @@ export const addresses: {
     socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
     routeIds: {
       [Bridge.Hop]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.Symbiosis]: {
+        routeId: 388,
+        isMiddleware: false,
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+    },
+  },
+  [ChainId.MANTLE_CHAIN_ID]: {
+    socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    routeIds: {
+      [Bridge.Symbiosis]: {
         routeId: 385,
         isMiddleware: false,
       },
