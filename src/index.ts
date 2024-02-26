@@ -1,5 +1,5 @@
 export { addresses } from './addresses'
-export { constants } from './constants'
 export { routes } from './routes'
 export { routesMap } from './routesmap'
 export * as abis from './abi'
+export { constants, Bridge, ChainId, Middleware, DexNames, RefuelDexNames, SimpleMiddleware  } from './constants'
