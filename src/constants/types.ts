@@ -61,6 +61,7 @@ export enum ChainId {
   LINEA_CHAIN_ID = 59144,
   MANTLE_CHAIN_ID = 5000,
   SCROLL_CHAIN_ID = 534352,
+  BLAST_CHAIN_ID = 81457
 }
 
 
