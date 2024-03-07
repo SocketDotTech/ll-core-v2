@@ -1,6 +1,6 @@
 {
   "name": "@socket.tech/ll-core-v2",
-  "version": "0.0.84-beta-01",
+  "version": "0.0.84",
   "description": "Core package for socket liquidity layer",
   "main": "index.js",
   "types": "index.d.ts",
@@ -13,7 +13,9 @@
     "lint": "prettier-standard --format '**/*.{ts}'",
     "bump": "npm version patch",
     "bump:next": "npm version prerelease --preid=next",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publsh-beta": "yarn build && npm publish --tag beta",
+    "publsh-latest": "yarn build && npm publish --tag latest"
   },
   "keywords": [],
   "author": "movr",
