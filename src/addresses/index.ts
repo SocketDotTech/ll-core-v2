@@ -10,19 +10,19 @@ export const addresses: {
 
     routeIds: {
       [Bridge.Hop]: {
-        routeId: 20,
+        routeId: 415,
         isMiddleware: false,
       },
       [Bridge.PolygonBridge]: {
-        routeId: 2,
+        routeId: 416,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
-        routeId: 22,
+        routeId: 417,
         isMiddleware: false,
       },
       [Bridge.Hyphen]: {
-        routeId: 4,
+        routeId: 418,
         isMiddleware: false,
       },
       [Bridge.ArbitrumBridge]: {
@@ -30,7 +30,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.OptimismBridge]: {
-        routeId: 6,
+        routeId: 419,
         isMiddleware: false,
       },
       [Bridge.Across]: {
@@ -42,7 +42,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.refuel]: {
-        routeId: 9,
+        routeId: 420,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV4]: {
@@ -90,7 +90,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
-        routeId: 21,
+        routeId: 421,
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
