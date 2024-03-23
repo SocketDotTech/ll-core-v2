@@ -94,11 +94,11 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 402,
+        routeId: 413,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 397,
+        routeId: 414,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -125,7 +125,6 @@ export const addresses: {
       RootChainManagerProxy: "0xA0c68C638235ee32657e8f720a23ceC1bFc77C77",
     },
   },
-
   [ChainId.BSC_CHAIN_ID]: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     stargateReceiver: "0x71cF3E64E42bcAEC7485AF71571d7033E5b7dF93",
@@ -171,11 +170,11 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 393,
+        routeId: 397,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 389,
+        routeId: 398,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -297,11 +296,11 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 391,
+        routeId: 396,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 393,
+        routeId: 397,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -376,11 +375,11 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 401,
+        routeId: 406,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 395,
+        routeId: 407,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -462,11 +461,11 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 402,
+        routeId: 407,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 397,
+        routeId: 408,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -488,7 +487,6 @@ export const addresses: {
       isL1: false,
     },
   },
-
   [ChainId.XDAI_CHAIN_ID]: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
@@ -523,7 +521,6 @@ export const addresses: {
       isL1: false,
     },
   },
-
   [ChainId.POLYGON_CHAIN_ID]: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     stargateReceiver: "0x8DfeB2e0B392f0033C8685E35FB4763d88a70d12",
@@ -581,11 +578,11 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 402,
+        routeId: 407,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
-        routeId: 396,
+        routeId: 408,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -607,7 +604,6 @@ export const addresses: {
       isL1: false,
     },
   },
-
   [ChainId.AURORA_CHAIN_ID]: {
     socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
     routeIds: {
@@ -714,7 +710,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.Rainbow]: {
-        routeId: 389,
+        routeId: 405,
         isMiddleware: true,
       },
       [Middleware.OneInch]: {
@@ -722,7 +718,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroX]: {
-        routeId: 398,
+        routeId: 404,
         isMiddleware: true,
       },
       [Bridge.Across]: {
