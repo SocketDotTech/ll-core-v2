@@ -89,6 +89,10 @@ export const addresses: {
         routeId: 411,
         isMiddleware: false,
       },
+      [Bridge.ScrollNative]: {
+        routeId: 422,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 421,
         isMiddleware: true,
@@ -807,10 +811,10 @@ export const addresses: {
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
-        controllerId: 0,
+        controllerId: 1,
       },
       [Controller.FeesTakerController]: {
-        controllerId: 1,
+        controllerId: 0,
       },
     },
   },
