@@ -700,6 +700,7 @@ export const addresses: {
   },
   [ChainId.BASE_CHAIN_ID]: {
     socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    stargateReceiver: "0xa4dCB24c6F16Bffec01d4E3Dc3D2d9092239BDA9",
     routeIds: {
       [Bridge.Hop]: {
         routeId: 390,
