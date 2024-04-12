@@ -700,6 +700,7 @@ export const addresses: {
   },
   [ChainId.BASE_CHAIN_ID]: {
     socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    stargateReceiver: "0xf510A87f6E28B4AE71c87123026617aBB6CE1420",
     routeIds: {
       [Bridge.Hop]: {
         routeId: 390,
@@ -770,6 +771,10 @@ export const addresses: {
         routeId: 388,
         isMiddleware: false,
       },
+      [Bridge.Across]: {
+        routeId: 389,
+        isMiddleware: false,
+      }
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
