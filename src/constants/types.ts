@@ -1,5 +1,6 @@
 export enum Bridge {
   Hop = "hop",
+  HopCctp = "hopCctp", // special bridge to bridge only usdc/usdc.e tokens
   AnySwap = "anyswap",
   AnySwapRouterV4 = "anyswap-router-v4",
   AnySwapRouterV6 = "anyswap-router-v6",
