@@ -13,6 +13,10 @@ export const addresses: {
         routeId: 415,
         isMiddleware: false,
       },
+      [Bridge.HopCctp]: {
+        routeId: 423,
+        isMiddleware: false,
+      },
       [Bridge.PolygonBridge]: {
         routeId: 416,
         isMiddleware: false,
@@ -338,6 +342,10 @@ export const addresses: {
         routeId: 17,
         isMiddleware: false,
       },
+      [Bridge.HopCctp]: {
+        routeId: 409,
+        isMiddleware: false,
+      },
       [Bridge.Celer]: {
         routeId: 18,
         isMiddleware: false,
@@ -417,7 +425,10 @@ export const addresses: {
         routeId: 18,
         isMiddleware: false,
       },
-
+      [Bridge.HopCctp]: {
+        routeId: 410,
+        isMiddleware: false,
+      },
       [Bridge.Celer]: {
         routeId: 19,
         isMiddleware: false,
@@ -531,6 +542,10 @@ export const addresses: {
     routeIds: {
       [Bridge.Hop]: {
         routeId: 22,
+        isMiddleware: false,
+      },
+      [Bridge.HopCctp]: {
+        routeId: 412,
         isMiddleware: false,
       },
       [Bridge.Celer]: {
@@ -704,6 +719,10 @@ export const addresses: {
     routeIds: {
       [Bridge.Hop]: {
         routeId: 390,
+        isMiddleware: false,
+      },
+      [Bridge.HopCctp]: {
+        routeId: 407,
         isMiddleware: false,
       },
       [Bridge.Synapse]: {
