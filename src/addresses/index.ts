@@ -561,7 +561,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
-        routeId: 405,
+        routeId: 409,
         isMiddleware: false,
       },
       [Bridge.AnySwapRouterV4]: {
