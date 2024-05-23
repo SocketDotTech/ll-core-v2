@@ -97,6 +97,10 @@ export const addresses: {
         routeId: 422,
         isMiddleware: false,
       },
+      [Bridge.ModeNative]: {
+        routeId: 427,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 421,
         isMiddleware: true,
@@ -677,7 +681,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Bridge.Across]: {
-        routeId: 391,
+        routeId: 392,
         isMiddleware: false,
       },
     },
