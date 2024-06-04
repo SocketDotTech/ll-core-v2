@@ -797,6 +797,10 @@ export const addresses: {
       [Bridge.Across]: {
         routeId: 390,
         isMiddleware: false,
+      },
+      [Bridge.refuel]: {
+        routeId: 391,
+        isMiddleware: false,
       }
     },
     controllerIds: {
