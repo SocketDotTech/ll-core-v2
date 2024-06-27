@@ -38,7 +38,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 426,
+        routeId: 429,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -359,7 +359,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 412,
+        routeId: 413,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -442,7 +442,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 413,
+        routeId: 415,
         isMiddleware: false,
       },
 
@@ -561,7 +561,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 415,
+        routeId: 416,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -681,7 +681,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Bridge.Across]: {
-        routeId: 392,
+        routeId: 393,
         isMiddleware: false,
       },
     },
@@ -750,7 +750,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Bridge.Across]: {
-        routeId: 410,
+        routeId: 411,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -795,7 +795,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 390,
+        routeId: 392,
         isMiddleware: false,
       },
       [Bridge.refuel]: {
@@ -872,6 +872,10 @@ export const addresses: {
     routeIds: {
       [Bridge.Symbiosis]: {
         routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.Across]: {
+        routeId: 386,
         isMiddleware: false,
       },
     },
