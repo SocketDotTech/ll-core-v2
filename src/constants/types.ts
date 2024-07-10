@@ -22,7 +22,8 @@ export enum Bridge {
   GnosisNative = "gnosis-native-bridge",
   MantleNative = "mantle-native-bridge",
   ScrollNative = "scroll-native-bridge",
-  ModeNative = "mode-native-bridge"
+  ModeNative = "mode-native-bridge",
+  SuperBridge = "super-bridge"
 }
 
 export enum DexNames {

@@ -596,6 +596,10 @@ export const addresses: {
         routeId: 403,
         isMiddleware: false,
       },
+      [Bridge.SuperBridge]: {
+        routeId: 417,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 24,
         isMiddleware: true,
@@ -767,6 +771,10 @@ export const addresses: {
       },
       [Bridge.CCTP]: {
         routeId: 397,
+        isMiddleware: false,
+      },
+      [Bridge.SuperBridge]: {
+        routeId: 412,
         isMiddleware: false,
       },
       wrappedTokenSwapperImpl: {
