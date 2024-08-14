@@ -23,7 +23,8 @@ export enum Bridge {
   MantleNative = "mantle-native-bridge",
   ScrollNative = "scroll-native-bridge",
   ModeNative = "mode-native-bridge",
-  SuperBridge = "super-bridge"
+  SuperBridge = "super-bridge",
+  StargateV2 = "stargate-v2"
 }
 
 export enum DexNames {

@@ -177,6 +177,10 @@ export const addresses: {
         routeId: 396,
         isMiddleware: false,
       },
+      [Bridge.SuperBridge]: {
+        routeId: 401,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 14,
         isMiddleware: true,
@@ -473,6 +477,10 @@ export const addresses: {
       },
       [Bridge.Symbiosis]: {
         routeId: 406,
+        isMiddleware: false,
+      },
+      [Bridge.SuperBridge]: {
+        routeId: 416,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -863,6 +871,10 @@ export const addresses: {
     routeIds: {
       [Bridge.Synapse]: {
         routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.Across]: {
+        routeId: 386,
         isMiddleware: false,
       },
     },
