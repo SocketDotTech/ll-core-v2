@@ -102,7 +102,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.StargateV2]: {
-        routeid: 430,
+        routeId: 430,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
