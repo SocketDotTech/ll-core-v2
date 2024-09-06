@@ -871,7 +871,7 @@ export const addresses: {
         routeId: 386,
         isMiddleware: false,
       },
-      [Bridge.MantleNative]: {
+      [Bridge.StargateV2]: {
         routeId: 387,
         isMiddleware: false,
       },
