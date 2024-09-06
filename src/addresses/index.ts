@@ -101,6 +101,10 @@ export const addresses: {
         routeId: 427,
         isMiddleware: false,
       },
+      [Bridge.StargateV2]: {
+        routeId: 430,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 421,
         isMiddleware: true,
@@ -179,6 +183,10 @@ export const addresses: {
       },
       [Bridge.SuperBridge]: {
         routeId: 401,
+        isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeid: 402,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -307,6 +315,10 @@ export const addresses: {
         routeId: 395,
         isMiddleware: false,
       },
+      [Bridge.StargateV2]: {
+        routeId: 399,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 13,
         isMiddleware: true,
@@ -388,6 +400,10 @@ export const addresses: {
       },
       [Bridge.Symbiosis]: {
         routeId: 405,
+        isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeId: 414,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -481,6 +497,10 @@ export const addresses: {
       },
       [Bridge.SuperBridge]: {
         routeId: 416,
+        isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeId: 417,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -606,6 +626,10 @@ export const addresses: {
       },
       [Bridge.SuperBridge]: {
         routeId: 417,
+        isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeId: 418,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -785,6 +809,10 @@ export const addresses: {
         routeId: 412,
         isMiddleware: false,
       },
+      [Bridge.StargateV2]: {
+        routeId: 413,
+        isMiddleware: false,
+      },
       wrappedTokenSwapperImpl: {
         routeId: 399,
         isMiddleware: true,
@@ -817,6 +845,10 @@ export const addresses: {
       [Bridge.refuel]: {
         routeId: 391,
         isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeId: 393,
+        isMiddleware: false,
       }
     },
     controllerIds: {
@@ -837,6 +869,10 @@ export const addresses: {
       },
       [Bridge.refuel]: {
         routeId: 386,
+        isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeId: 387,
         isMiddleware: false,
       },
     },
