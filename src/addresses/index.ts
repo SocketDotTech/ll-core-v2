@@ -892,6 +892,14 @@ export const addresses: {
         routeId: 385,
         isMiddleware: false,
       },
+      [Bridge.StargateV2]: {
+        routeId: 386,
+        isMiddleware: false,
+      },
+      [Bridge.Across]: {
+        routeId: 387,
+        isMiddleware: false,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
