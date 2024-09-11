@@ -186,7 +186,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.StargateV2]: {
-        routeid: 402,
+        routeId: 402,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
