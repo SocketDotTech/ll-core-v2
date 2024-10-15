@@ -589,7 +589,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 416,
+        routeId: 393,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
@@ -642,6 +642,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 408,
+        isMiddleware: true,
+      },
+      [Middleware.UniswapV3]: {
+        routeId: 392,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {

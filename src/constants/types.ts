@@ -38,6 +38,7 @@ export enum RefuelDexNames {
   refuelOneInch = 'refuel-oneinch',
   refuelZeroX = 'refuel-zerox',
   refuelRainbow = 'refuel-rainbow',
+  refuelUniswapV3 = 'refuel-uniswapV3'
 }
 export enum SimpleMiddleware {
   refuel = "refuel",
