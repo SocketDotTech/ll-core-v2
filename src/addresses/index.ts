@@ -117,6 +117,10 @@ export const addresses: {
         routeId: 414,
         isMiddleware: true,
       },
+      [Middleware.UniswapV3]: {
+        routeId: 431,
+        isMiddleware: true,
+      },
       wrappedTokenSwapperImpl: {
         routeId: 406,
         isMiddleware: true,
@@ -199,6 +203,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 398,
+        isMiddleware: true,
+      },
+      [Middleware.UniswapV3]: {
+        routeId: 403,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -331,6 +339,10 @@ export const addresses: {
         routeId: 397,
         isMiddleware: true,
       },
+      [Middleware.UniswapV3]: {
+        routeId: 400,
+        isMiddleware: true,
+      },
       wrappedTokenSwapperImpl: {
         routeId: 392,
         isMiddleware: true,
@@ -416,6 +428,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 407,
+        isMiddleware: true,
+      },
+      [Middleware.UniswapV3]: {
+        routeId: 415,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -513,6 +529,10 @@ export const addresses: {
       },
       [Middleware.Rainbow]: {
         routeId: 408,
+        isMiddleware: true,
+      },
+      [Middleware.UniswapV3]: {
+        routeId: 418,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -643,6 +663,10 @@ export const addresses: {
       [Middleware.Rainbow]: {
         routeId: 408,
         isMiddleware: true,
+      },
+      [Middleware.UniswapV3]: {
+        routeId: 419,
+        isMiddleware: true
       },
       wrappedTokenSwapperImpl: {
         routeId: 404,
@@ -817,6 +841,10 @@ export const addresses: {
         routeId: 399,
         isMiddleware: true,
       },
+      [Middleware.UniswapV3]: {
+        routeId: 414,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
@@ -920,6 +948,10 @@ export const addresses: {
       [Bridge.Across]: {
         routeId: 386,
         isMiddleware: false,
+      },
+      [Middleware.UniswapV3]: {
+        routeId: 387,
+        isMiddleware: true,
       },
     },
     controllerIds: {
