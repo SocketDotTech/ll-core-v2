@@ -1,11 +1,12 @@
 {
   "name": "@socket.tech/ll-core-v2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Core package for socket liquidity layer",
   "main": "index.js",
   "types": "index.d.ts",
   "publishConfig": {
     "access": "public"
+    
   },
   "scripts": {
     "dev": "tsc --watch",

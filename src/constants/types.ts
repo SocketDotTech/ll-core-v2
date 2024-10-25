@@ -30,12 +30,15 @@ export enum Bridge {
 export enum DexNames {
   OneInch = "oneinch",
   ZeroX = "zerox",
-  Rainbow = 'rainbow'
+  Rainbow = 'rainbow',
+  UniswapV2 = 'uniswapV2',
+  UniswapV3 = 'uniswapV3'
 }
 export enum RefuelDexNames {
   refuelOneInch = 'refuel-oneinch',
   refuelZeroX = 'refuel-zerox',
   refuelRainbow = 'refuel-rainbow',
+  refuelUniswapV3 = 'refuel-uniswapV3'
 }
 export enum SimpleMiddleware {
   refuel = "refuel",
