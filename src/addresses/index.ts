@@ -118,7 +118,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 431,
+        routeId: 432,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -206,7 +206,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 403,
+        routeId: 404,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -340,7 +340,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 400,
+        routeId: 401,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -431,7 +431,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 415,
+        routeId: 416,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -532,7 +532,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 418,
+        routeId: 419,
         isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
@@ -665,7 +665,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 419,
+        routeId: 420,
         isMiddleware: true
       },
       wrappedTokenSwapperImpl: {
@@ -842,7 +842,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.UniswapV3]: {
-        routeId: 414,
+        routeId: 415,
         isMiddleware: true,
       },
     },
@@ -950,7 +950,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Middleware.UniswapV3]: {
-        routeId: 387,
+        routeId: 388,
         isMiddleware: true,
       },
     },
