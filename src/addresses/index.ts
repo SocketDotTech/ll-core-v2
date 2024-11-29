@@ -201,6 +201,10 @@ export const addresses: {
         routeId: 397,
         isMiddleware: true,
       },
+      [Middleware.ZeroxV2]: {
+        routeId: 405,
+        isMiddleware: true,
+      },
       [Middleware.Rainbow]: {
         routeId: 398,
         isMiddleware: true,
@@ -335,6 +339,10 @@ export const addresses: {
         routeId: 396,
         isMiddleware: true,
       },
+      [Middleware.ZeroxV2]: {
+        routeId: 402,
+        isMiddleware: true,
+      },
       [Middleware.Rainbow]: {
         routeId: 397,
         isMiddleware: true,
@@ -424,6 +432,10 @@ export const addresses: {
       },
       [Middleware.ZeroX]: {
         routeId: 406,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroxV2]: {
+        routeId: 417,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -525,6 +537,10 @@ export const addresses: {
       },
       [Middleware.ZeroX]: {
         routeId: 407,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroxV2]: {
+        routeId: 420,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -661,7 +677,7 @@ export const addresses: {
         isMiddleware: true,
       },
       [Middleware.ZeroxV2]: {
-        routeId: 396,
+        routeId: 421,
         isMiddleware: true,
       },
       [Middleware.Rainbow]: {
@@ -813,6 +829,10 @@ export const addresses: {
         routeId: 404,
         isMiddleware: true,
       },
+      [Middleware.ZeroxV2]: {
+        routeId: 416,
+        isMiddleware: true,
+      },
       [Bridge.Across]: {
         routeId: 411,
         isMiddleware: false,
@@ -881,7 +901,11 @@ export const addresses: {
       [Bridge.StargateV2]: {
         routeId: 393,
         isMiddleware: false,
-      }
+      },
+      [Middleware.ZeroxV2]: {
+        routeId: 394,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -906,6 +930,10 @@ export const addresses: {
       [Bridge.StargateV2]: {
         routeId: 387,
         isMiddleware: false,
+      },
+      [Middleware.ZeroxV2]: {
+        routeId: 388,
+        isMiddleware: true,
       },
     },
     controllerIds: {
@@ -932,6 +960,10 @@ export const addresses: {
         routeId: 387,
         isMiddleware: false,
       },
+      [Middleware.ZeroxV2]: {
+        routeId: 388,
+        isMiddleware: true,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -955,6 +987,10 @@ export const addresses: {
       },
       [Middleware.UniswapV3]: {
         routeId: 388,
+        isMiddleware: true,
+      },
+      [Middleware.ZeroxV2]: {
+        routeId: 389,
         isMiddleware: true,
       },
     },
