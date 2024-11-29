@@ -625,7 +625,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Across]: {
-        routeId: 393,
+        routeId: 416,
         isMiddleware: false,
       },
       [Bridge.Stargate]: {
