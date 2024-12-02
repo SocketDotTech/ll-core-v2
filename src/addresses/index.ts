@@ -90,7 +90,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.MantleNative]: {
-        routeId: 411,
+        routeId: 433,
         isMiddleware: false,
       },
       [Bridge.ScrollNative]: {
