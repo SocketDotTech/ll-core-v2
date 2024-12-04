@@ -113,6 +113,10 @@ export const addresses: {
         routeId: 413,
         isMiddleware: true,
       },
+      [Middleware.ZeroxV2]: {
+        routeId: 434,
+        isMiddleware: true,
+      },
       [Middleware.Rainbow]: {
         routeId: 414,
         isMiddleware: true,
