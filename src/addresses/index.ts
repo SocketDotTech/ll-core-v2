@@ -609,7 +609,7 @@ export const addresses: {
     },
   },
   [ChainId.POLYGON_CHAIN_ID]: {
-    socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
+    socketGateway: "0xBC13C22E754d47F8d78d21b432B66FE5b439D568",
     stargateReceiver: "0x8DfeB2e0B392f0033C8685E35FB4763d88a70d12",
     routeIds: {
       [Bridge.Hop]: {
@@ -690,6 +690,10 @@ export const addresses: {
       },
       [Middleware.UniswapV3]: {
         routeId: 420,
+        isMiddleware: true
+      },
+      [Middleware.OpenOcean]: {
+        routeId: 397,
         isMiddleware: true
       },
       wrappedTokenSwapperImpl: {
