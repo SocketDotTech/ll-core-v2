@@ -693,7 +693,7 @@ export const addresses: {
         isMiddleware: true
       },
       [Middleware.OpenOcean]: {
-        routeId: 397,
+        routeId: 398,
         isMiddleware: true
       },
       wrappedTokenSwapperImpl: {
