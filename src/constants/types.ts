@@ -24,7 +24,8 @@ export enum Bridge {
   ScrollNative = "scroll-native-bridge",
   ModeNative = "mode-native-bridge",
   SuperBridge = "super-bridge",
-  StargateV2 = "stargate-v2"
+  StargateV2 = "stargate-v2",
+  InkNative = "ink-native-bridge"
 }
 
 export enum DexNames {
