@@ -1,6 +1,6 @@
 {
   "name": "@socket.tech/ll-core-v2",
-  "version": "1.0.8-beta-01",
+  "version": "1.0.8",
   "description": "Core package for socket liquidity layer",
   "main": "index.js",
   "types": "index.d.ts",
