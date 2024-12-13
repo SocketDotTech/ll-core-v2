@@ -34,14 +34,16 @@ export enum DexNames {
   ZeroxV2 = "zeroxv2",
   Rainbow = 'rainbow',
   UniswapV2 = 'uniswapV2',
-  UniswapV3 = 'uniswapV3'
+  UniswapV3 = 'uniswapV3',
+  OpenOcean = 'openocean',
 }
 export enum RefuelDexNames {
   refuelOneInch = 'refuel-oneinch',
   refuelZeroX = 'refuel-zerox',
   refuelZeroxV2 = 'refuel-zeroxv2',
   refuelRainbow = 'refuel-rainbow',
-  refuelUniswapV3 = 'refuel-uniswapV3'
+  refuelUniswapV3 = 'refuel-uniswapV3',
+  refuelOpenOcean = 'refuel-openocean',
 }
 export enum SimpleMiddleware {
   refuel = "refuel",
