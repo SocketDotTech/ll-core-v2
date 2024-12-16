@@ -106,7 +106,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.InkNative]: {
-        routeId: 430,
+        routeId: 436,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
