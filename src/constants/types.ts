@@ -24,7 +24,8 @@ export enum Bridge {
   ScrollNative = "scroll-native-bridge",
   ModeNative = "mode-native-bridge",
   SuperBridge = "super-bridge",
-  StargateV2 = "stargate-v2"
+  StargateV2 = "stargate-v2",
+  InkNative = "ink-native-bridge"
 }
 
 export enum DexNames {
@@ -73,7 +74,8 @@ export enum ChainId {
   MANTLE_CHAIN_ID = 5000,
   SCROLL_CHAIN_ID = 534352,
   BLAST_CHAIN_ID = 81457,
-  MODE_CHAIN_ID = 34443
+  MODE_CHAIN_ID = 34443,
+  INK_CHAIN_ID = 57073
 }
 
 
