@@ -75,9 +75,9 @@ export enum ChainId {
   SCROLL_CHAIN_ID = 534352,
   BLAST_CHAIN_ID = 81457,
   MODE_CHAIN_ID = 34443,
-  INK_CHAIN_ID = 57073
+  INK_CHAIN_ID = 57073,
+  SONIC_CHAIN_ID = 146
 }
-
 
 
 export enum Controller {
