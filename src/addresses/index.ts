@@ -700,6 +700,10 @@ export const addresses: {
         routeId: 418,
         isMiddleware: false,
       },
+      [Bridge.Mayan]: {
+        routeId: 404,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 24,
         isMiddleware: true,
