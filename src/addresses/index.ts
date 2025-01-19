@@ -109,6 +109,10 @@ export const addresses: {
         routeId: 436,
         isMiddleware: false,
       },
+      [Bridge.Mayan]: {
+        routeId: 437,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 421,
         isMiddleware: true,
@@ -203,6 +207,10 @@ export const addresses: {
       },
       [Bridge.StargateV2]: {
         routeId: 402,
+        isMiddleware: false,
+      },
+      [Bridge.Mayan]: {
+        routeId: 407,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -347,6 +355,10 @@ export const addresses: {
         routeId: 399,
         isMiddleware: false,
       },
+      [Bridge.Mayan]: {
+        routeId: 404,
+        isMiddleware: false,
+      },
       [Middleware.OneInch]: {
         routeId: 13,
         isMiddleware: true,
@@ -444,6 +456,10 @@ export const addresses: {
       },
       [Bridge.StargateV2]: {
         routeId: 414,
+        isMiddleware: false,
+      },
+      [Bridge.Mayan]: {
+        routeId: 419,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -553,6 +569,10 @@ export const addresses: {
       },
       [Bridge.StargateV2]: {
         routeId: 417,
+        isMiddleware: false,
+      },
+      [Bridge.Mayan]: {
+        routeId: 422,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -701,7 +721,7 @@ export const addresses: {
         isMiddleware: false,
       },
       [Bridge.Mayan]: {
-        routeId: 404,
+        routeId: 423,
         isMiddleware: false,
       },
       [Middleware.OneInch]: {
@@ -899,6 +919,10 @@ export const addresses: {
       },
       [Bridge.StargateV2]: {
         routeId: 413,
+        isMiddleware: false,
+      },
+      [Bridge.Mayan]: {
+        routeId: 418,
         isMiddleware: false,
       },
       wrappedTokenSwapperImpl: {
