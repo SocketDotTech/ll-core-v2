@@ -25,7 +25,8 @@ export enum Bridge {
   ModeNative = "mode-native-bridge",
   SuperBridge = "super-bridge",
   StargateV2 = "stargate-v2",
-  InkNative = "ink-native-bridge"
+  InkNative = "ink-native-bridge",
+  Mayan = 'mayan'
 }
 
 export enum DexNames {
@@ -76,6 +77,7 @@ export enum ChainId {
   BLAST_CHAIN_ID = 81457,
   MODE_CHAIN_ID = 34443,
   INK_CHAIN_ID = 57073,
+  SOLANA_CHAIN_ID = 89999,
   SONIC_CHAIN_ID = 146
 }
 
