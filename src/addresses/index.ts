@@ -641,6 +641,10 @@ export const addresses: {
         routeId: 387,
         isMiddleware: false,
       },
+      [Bridge.Symbiosis]: {
+        routeId: 389,
+        isMiddleware: false,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
