@@ -15,8 +15,8 @@ export enum Bridge {
   Connext = "connext",
   CCTP = "cctp",
   Synapse = "synapse",
-  BaseBridge = 'base-bridge',
-  ZoraBridge =  'zora-bridge',
+  BaseBridge = "base-bridge",
+  ZoraBridge = "zora-bridge",
   ZkSyncNative = "zksync-native",
   Symbiosis = "symbiosis",
   GnosisNative = "gnosis-native-bridge",
@@ -26,25 +26,25 @@ export enum Bridge {
   SuperBridge = "super-bridge",
   StargateV2 = "stargate-v2",
   InkNative = "ink-native-bridge",
-  Mayan = 'mayan'
+  Mayan = "mayan",
 }
 
 export enum DexNames {
   OneInch = "oneinch",
   ZeroX = "zerox",
   ZeroxV2 = "zeroxv2",
-  Rainbow = 'rainbow',
-  UniswapV2 = 'uniswapV2',
-  UniswapV3 = 'uniswapV3',
-  OpenOcean = 'openocean',
+  Rainbow = "rainbow",
+  UniswapV2 = "uniswapV2",
+  UniswapV3 = "uniswapV3",
+  OpenOcean = "openocean",
 }
 export enum RefuelDexNames {
-  refuelOneInch = 'refuel-oneinch',
-  refuelZeroX = 'refuel-zerox',
-  refuelZeroxV2 = 'refuel-zeroxv2',
-  refuelRainbow = 'refuel-rainbow',
-  refuelUniswapV3 = 'refuel-uniswapV3',
-  refuelOpenOcean = 'refuel-openocean',
+  refuelOneInch = "refuel-oneinch",
+  refuelZeroX = "refuel-zerox",
+  refuelZeroxV2 = "refuel-zeroxv2",
+  refuelRainbow = "refuel-rainbow",
+  refuelUniswapV3 = "refuel-uniswapV3",
+  refuelOpenOcean = "refuel-openocean",
 }
 export enum SimpleMiddleware {
   refuel = "refuel",
@@ -53,9 +53,9 @@ export enum SimpleMiddleware {
 export const Middleware = {
   ...SimpleMiddleware,
   ...DexNames,
-  ...RefuelDexNames
-}
-export type Middleware = DexNames | RefuelDexNames | SimpleMiddleware
+  ...RefuelDexNames,
+};
+export type Middleware = DexNames | RefuelDexNames | SimpleMiddleware;
 
 export enum ChainId {
   POLYGON_CHAIN_ID = 137,
@@ -78,9 +78,9 @@ export enum ChainId {
   MODE_CHAIN_ID = 34443,
   INK_CHAIN_ID = 57073,
   SOLANA_CHAIN_ID = 89999,
-  SONIC_CHAIN_ID = 146
+  SONIC_CHAIN_ID = 146,
+  ABSTRACT_CHAIN_ID = 2741,
 }
-
 
 export enum Controller {
   RefuelSwapAndBridge = "refuel-swap-bridge",
