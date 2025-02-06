@@ -135,7 +135,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 435,
-        isMiddleware: true
+        isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
         routeId: 406,
@@ -235,7 +235,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 406,
-        isMiddleware: true
+        isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
         routeId: 394,
@@ -381,7 +381,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 403,
-        isMiddleware: true
+        isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
         routeId: 392,
@@ -484,7 +484,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 418,
-        isMiddleware: true
+        isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
         routeId: 402,
@@ -597,7 +597,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 421,
-        isMiddleware: true
+        isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
         routeId: 403,
@@ -631,7 +631,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 388,
-        isMiddleware: true
+        isMiddleware: true,
       },
       [Bridge.refuel]: {
         routeId: 3,
@@ -639,6 +639,10 @@ export const addresses: {
       },
       [Bridge.Connext]: {
         routeId: 387,
+        isMiddleware: false,
+      },
+      [Bridge.Symbiosis]: {
+        routeId: 389,
         isMiddleware: false,
       },
     },
@@ -742,11 +746,11 @@ export const addresses: {
       },
       [Middleware.UniswapV3]: {
         routeId: 420,
-        isMiddleware: true
+        isMiddleware: true,
       },
       [Middleware.OpenOcean]: {
         routeId: 422,
-        isMiddleware: true
+        isMiddleware: true,
       },
       wrappedTokenSwapperImpl: {
         routeId: 404,
@@ -935,7 +939,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 417,
-        isMiddleware: true
+        isMiddleware: true,
       },
     },
     controllerIds: {
@@ -976,7 +980,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 395,
-        isMiddleware: true
+        isMiddleware: true,
       },
     },
     controllerIds: {
@@ -1009,7 +1013,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 389,
-        isMiddleware: true
+        isMiddleware: true,
       },
     },
     controllerIds: {
@@ -1042,7 +1046,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 389,
-        isMiddleware: true
+        isMiddleware: true,
       },
     },
     controllerIds: {
@@ -1075,7 +1079,7 @@ export const addresses: {
       },
       [Middleware.OpenOcean]: {
         routeId: 390,
-        isMiddleware: true
+        isMiddleware: true,
       },
     },
     controllerIds: {
@@ -1113,8 +1117,8 @@ export const addresses: {
     routeIds: {
       [Bridge.Across]: {
         routeId: 385,
-          isMiddleware: false,
-      }
+        isMiddleware: false,
+      },
     },
     controllerIds: {
       [Controller.RefuelSwapAndBridge]: {
@@ -1124,5 +1128,26 @@ export const addresses: {
         controllerId: 1,
       },
     },
-  }
+  },
+  [ChainId.ABSTRACT_CHAIN_ID]: {
+    socketGateway: "0xf8291b7c7fdaa275a0b17da1a756d1fbe4d3a13d",
+    routeIds: {
+      [Bridge.Symbiosis]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.StargateV2]: {
+        routeId: 386,
+        isMiddleware: false,
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+    },
+  },
 };
