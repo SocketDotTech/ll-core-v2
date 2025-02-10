@@ -27,6 +27,7 @@ export enum Bridge {
   StargateV2 = "stargate-v2",
   InkNative = "ink-native-bridge",
   Mayan = "mayan",
+  B3Native = "b3-native-bridge",
 }
 
 export enum DexNames {
@@ -80,6 +81,7 @@ export enum ChainId {
   SOLANA_CHAIN_ID = 89999,
   SONIC_CHAIN_ID = 146,
   ABSTRACT_CHAIN_ID = 2741,
+  B3_CHAIN_ID = 8333,
 }
 
 export enum Controller {
