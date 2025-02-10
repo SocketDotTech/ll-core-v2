@@ -941,6 +941,10 @@ export const addresses: {
         routeId: 417,
         isMiddleware: true,
       },
+      [Bridge.B3Native]: {
+        routeId: 420,
+        isMiddleware: false,
+      },
     },
     controllerIds: {
       [Controller.FeesTakerController]: {
@@ -1138,6 +1142,23 @@ export const addresses: {
       },
       [Bridge.StargateV2]: {
         routeId: 386,
+        isMiddleware: false,
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+    },
+  },
+  [ChainId.B3_CHAIN_ID]: {
+    socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    routeIds: {
+      [Bridge.SuperBridge]: {
+        routeId: 385,
         isMiddleware: false,
       },
     },
