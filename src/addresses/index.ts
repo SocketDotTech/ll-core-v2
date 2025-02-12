@@ -1171,4 +1171,46 @@ export const addresses: {
       },
     },
   },
+  [ChainId.UNI_CHAIN_ID]: {
+    socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    routeIds: {
+      [Bridge.Across]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
+      [Bridge.CCTP]: {
+        routeId: 386,
+        isMiddleware: false,
+      },
+      [Middleware.ZeroxV2]: {
+        routeId: 387,
+        isMiddleware: true,
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+    },
+  },
+  [ChainId.BERA_CHAIN_ID]: {
+    socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    routeIds: {
+      [Bridge.Symbiosis]: {
+        routeId: 385,
+        isMiddleware: false,
+      },
+    },
+    controllerIds: {
+      [Controller.RefuelSwapAndBridge]: {
+        controllerId: 0,
+      },
+      [Controller.FeesTakerController]: {
+        controllerId: 1,
+      },
+    },
+  },
 };

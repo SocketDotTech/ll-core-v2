@@ -82,6 +82,8 @@ export enum ChainId {
   SONIC_CHAIN_ID = 146,
   ABSTRACT_CHAIN_ID = 2741,
   B3_CHAIN_ID = 8333,
+  UNI_CHAIN_ID = 130,
+  BERA_CHAIN_ID = 80094,
 }
 
 export enum Controller {
