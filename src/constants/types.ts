@@ -38,6 +38,7 @@ export enum DexNames {
   UniswapV2 = "uniswapV2",
   UniswapV3 = "uniswapV3",
   OpenOcean = "openocean",
+  Magpie = 'magpie',
 }
 export enum RefuelDexNames {
   refuelOneInch = "refuel-oneinch",
