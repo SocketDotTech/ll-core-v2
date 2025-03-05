@@ -666,6 +666,10 @@ export const addresses: {
                 routeId: 389,
                 isMiddleware: false,
             },
+            [Bridge.StargateV2]: {
+                routeId: 390,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
