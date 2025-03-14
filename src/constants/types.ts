@@ -14,6 +14,7 @@ export enum Bridge {
   Stargate = "stargate",
   Connext = "connext",
   CCTP = "cctp",
+  CCTPv2 = "cctp-v2",
   Synapse = "synapse",
   BaseBridge = "base-bridge",
   ZoraBridge = "zora-bridge",

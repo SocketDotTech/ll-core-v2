@@ -62,6 +62,10 @@ export const addresses: {
                 routeId: 407,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2]: {
+                routeId: 440,
+                isMiddleware: false,
+            },
             [Bridge.BaseBridge]: {
                 routeId: 405,
                 isMiddleware: false,
@@ -350,6 +354,10 @@ export const addresses: {
             },
             [Bridge.CCTP]: {
                 routeId: 385,
+                isMiddleware: false,
+            },
+            [Bridge.CCTPv2]: {
+                routeId: 407,
                 isMiddleware: false,
             },
             [Bridge.Synapse]: {
@@ -944,6 +952,10 @@ export const addresses: {
             },
             [Bridge.CCTP]: {
                 routeId: 397,
+                isMiddleware: false,
+            },
+            [Bridge.CCTPv2]: {
+                routeId: 422,
                 isMiddleware: false,
             },
             [Bridge.SuperBridge]: {
