@@ -1023,6 +1023,10 @@ export const addresses: {
                 routeId: 393,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2]: {
+                routeId: 397,
+                isMiddleware: false,
+            },
             [Middleware.ZeroxV2]: {
                 routeId: 394,
                 isMiddleware: true,
