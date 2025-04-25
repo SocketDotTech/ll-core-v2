@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "tsc --watch",
+    "prepare": "npm run build",
     "build": "tsc",
     "lint": "prettier-standard --format '**/*.{ts}'",
     "bump": "npm version patch",
