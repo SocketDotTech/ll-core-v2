@@ -10,6 +10,11 @@ export const addresses: {
         stargateReceiver: "0x362c116779D2d27F822a497E4650B6e2616d3859",
 
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Hop]: {
                 routeId: 415,
                 isMiddleware: false,
@@ -146,10 +151,6 @@ export const addresses: {
                 routeId: 439,
                 isMiddleware: true,
             },
-            [Middleware.Kyberswap]: {
-                routeId: 441,
-                isMiddleware: true,
-            },
             wrappedTokenSwapperImpl: {
                 routeId: 406,
                 isMiddleware: true,
@@ -178,6 +179,11 @@ export const addresses: {
         socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
         stargateReceiver: "0x71cF3E64E42bcAEC7485AF71571d7033E5b7dF93",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Celer]: {
                 routeId: 13,
                 isMiddleware: false,
@@ -277,6 +283,11 @@ export const addresses: {
         socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
         stargateReceiver: "0x24dE7b66673e6996a6677EC27c3678a32Ed5Bd15",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Hyphen]: {
                 routeId: 2,
                 isMiddleware: false,
@@ -332,6 +343,11 @@ export const addresses: {
         socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
         stargateReceiver: "0x83b2cda6A33128324ee9cb2f0360bA8a42Cec2C6",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Celer]: {
                 routeId: 12,
                 isMiddleware: false,
@@ -431,6 +447,11 @@ export const addresses: {
         socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
         stargateReceiver: "0xddC3A2bc1D6252D09A82814269d602D84Ca3E7ae",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.CCTP]: {
                 routeId: 396,
                 isMiddleware: false,
@@ -538,6 +559,11 @@ export const addresses: {
         socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
         stargateReceiver: "0x88616cB9499F32Ff6A784B66B60aABF0bCf0df39",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.CCTP]: {
                 routeId: 396,
                 isMiddleware: false,
@@ -701,6 +727,11 @@ export const addresses: {
         socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
         stargateReceiver: "0x8DfeB2e0B392f0033C8685E35FB4763d88a70d12",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Hop]: {
                 routeId: 22,
                 isMiddleware: false,
@@ -849,6 +880,11 @@ export const addresses: {
     [ChainId.ZKSYNC_ERA_CHAIN_ID]: {
         socketGateway: "0xaDdE7028e7ec226777e5dea5D53F6457C21ec7D6",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.AnySwapRouterV6]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -906,6 +942,11 @@ export const addresses: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         stargateReceiver: "0xf510A87f6E28B4AE71c87123026617aBB6CE1420",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Hop]: {
                 routeId: 390,
                 isMiddleware: false,
@@ -1007,6 +1048,11 @@ export const addresses: {
     [ChainId.LINEA_CHAIN_ID]: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Hop]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1056,6 +1102,11 @@ export const addresses: {
     [ChainId.MANTLE_CHAIN_ID]: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Symbiosis]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1089,6 +1140,11 @@ export const addresses: {
     [ChainId.SCROLL_CHAIN_ID]: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Celer]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1126,6 +1182,11 @@ export const addresses: {
     [ChainId.BLAST_CHAIN_ID]: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Synapse]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1268,6 +1329,11 @@ export const addresses: {
     [ChainId.BERA_CHAIN_ID]: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         routeIds: {
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
+
             [Bridge.Symbiosis]: {
                 routeId: 385,
                 isMiddleware: false,
