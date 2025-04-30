@@ -14,7 +14,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Hop]: {
                 routeId: 415,
                 isMiddleware: false,
@@ -183,7 +182,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Celer]: {
                 routeId: 13,
                 isMiddleware: false,
@@ -287,7 +285,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Hyphen]: {
                 routeId: 2,
                 isMiddleware: false,
@@ -347,7 +344,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Celer]: {
                 routeId: 12,
                 isMiddleware: false,
@@ -451,7 +447,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.CCTP]: {
                 routeId: 396,
                 isMiddleware: false,
@@ -563,7 +558,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.CCTP]: {
                 routeId: 396,
                 isMiddleware: false,
@@ -588,7 +582,6 @@ export const addresses: {
                 routeId: 415,
                 isMiddleware: false,
             },
-
             [Bridge.AnySwapRouterV4]: {
                 routeId: 5,
                 isMiddleware: false,
@@ -601,7 +594,6 @@ export const addresses: {
                 routeId: 7,
                 isMiddleware: false,
             },
-
             [Bridge.AnySwapRouterV6]: {
                 routeId: 17,
                 isMiddleware: false,
@@ -731,7 +723,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Hop]: {
                 routeId: 22,
                 isMiddleware: false,
@@ -884,7 +875,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.AnySwapRouterV6]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -946,7 +936,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Hop]: {
                 routeId: 390,
                 isMiddleware: false,
@@ -1052,7 +1041,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Hop]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1106,7 +1094,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Symbiosis]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1144,7 +1131,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Celer]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1186,7 +1172,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Synapse]: {
                 routeId: 385,
                 isMiddleware: false,
@@ -1333,7 +1318,6 @@ export const addresses: {
                 routeId: 441,
                 isMiddleware: true,
             },
-
             [Bridge.Symbiosis]: {
                 routeId: 385,
                 isMiddleware: false,
