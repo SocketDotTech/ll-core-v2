@@ -787,6 +787,10 @@ export const addresses: {
                 routeId: 425,
                 isMiddleware: true,
             },
+            [Middleware.Kyberswap]: {
+                routeId: 426,
+                isMiddleware: true,
+            },
             wrappedTokenSwapperImpl: {
                 routeId: 404,
                 isMiddleware: true,
