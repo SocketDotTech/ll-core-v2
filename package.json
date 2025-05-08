@@ -1,6 +1,6 @@
 {
   "name": "@socket.tech/ll-core-v2",
-  "version": "1.0.24",
+  "version": "1.0.30",
   "description": "Core package for socket liquidity layer",
   "main": "index.js",
   "types": "index.d.ts",
@@ -9,12 +9,12 @@
   },
   "scripts": {
     "dev": "tsc --watch",
+    "prepare": "npm run build",
     "build": "tsc",
     "lint": "prettier-standard --format '**/*.{ts}'",
     "bump": "npm version patch",
     "bump:next": "npm version prerelease --preid=next",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build",
     "publsh-beta": "yarn build && npm publish --tag beta",
     "publsh-latest": "yarn build && npm publish --tag latest"
   },
