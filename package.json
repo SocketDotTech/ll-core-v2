@@ -15,7 +15,6 @@
     "bump": "npm version patch",
     "bump:next": "npm version prerelease --preid=next",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build",
     "publsh-beta": "yarn build && npm publish --tag beta",
     "publsh-latest": "yarn build && npm publish --tag latest"
   },
