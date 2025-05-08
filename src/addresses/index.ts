@@ -146,6 +146,10 @@ export const addresses: {
                 routeId: 439,
                 isMiddleware: true,
             },
+            [Middleware.Kyberswap]: {
+                routeId: 441,
+                isMiddleware: true,
+            },
             wrappedTokenSwapperImpl: {
                 routeId: 406,
                 isMiddleware: true,
@@ -248,6 +252,10 @@ export const addresses: {
             },
             [Middleware.Magpie]: {
                 routeId: 409,
+                isMiddleware: true,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 410,
                 isMiddleware: true,
             },
             wrappedTokenSwapperImpl: {
@@ -404,6 +412,10 @@ export const addresses: {
                 routeId: 406,
                 isMiddleware: true,
             },
+            [Middleware.Kyberswap]: {
+                routeId: 408,
+                isMiddleware: true,
+            },
             wrappedTokenSwapperImpl: {
                 routeId: 392,
                 isMiddleware: true,
@@ -509,6 +521,10 @@ export const addresses: {
             },
             [Middleware.Magpie]: {
                 routeId: 421,
+                isMiddleware: true,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 422,
                 isMiddleware: true,
             },
             wrappedTokenSwapperImpl: {
@@ -624,6 +640,10 @@ export const addresses: {
             },
             [Middleware.Magpie]: {
                 routeId: 425,
+                isMiddleware: true,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 427,
                 isMiddleware: true,
             },
             wrappedTokenSwapperImpl: {
@@ -788,7 +808,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
-                routeId: 426,
+                routeId: 427,
                 isMiddleware: true,
             },
             wrappedTokenSwapperImpl: {
@@ -992,6 +1012,10 @@ export const addresses: {
                 routeId: 420,
                 isMiddleware: false,
             },
+            [Middleware.Kyberswap]: {
+                routeId: 423,
+                isMiddleware: true,
+            },
         },
         controllerIds: {
             [Controller.FeesTakerController]: {
@@ -1041,6 +1065,10 @@ export const addresses: {
                 routeId: 396,
                 isMiddleware: true,
             },
+            [Middleware.Kyberswap]: {
+                routeId: 398,
+                isMiddleware: true,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1072,6 +1100,10 @@ export const addresses: {
             },
             [Middleware.OpenOcean]: {
                 routeId: 389,
+                isMiddleware: true,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 390,
                 isMiddleware: true,
             },
         },
@@ -1111,6 +1143,10 @@ export const addresses: {
                 routeId: 390,
                 isMiddleware: true,
             },
+            [Middleware.Kyberswap]: {
+                routeId: 391,
+                isMiddleware: true,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1146,6 +1182,10 @@ export const addresses: {
             },
             [Middleware.Magpie]: {
                 routeId: 391,
+                isMiddleware: true,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 392,
                 isMiddleware: true,
             },
         },
@@ -1272,6 +1312,10 @@ export const addresses: {
             },
             [Middleware.Magpie]: {
                 routeId: 386,
+                isMiddleware: true,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 387,
                 isMiddleware: true,
             },
         },
