@@ -554,6 +554,10 @@ export const addresses: {
                 routeId: 396,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2]: {
+                routeId: 426,
+                isMiddleware: false,
+            },
             [Bridge.Hop]: {
                 routeId: 18,
                 isMiddleware: false,
