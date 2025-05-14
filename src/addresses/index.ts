@@ -1332,4 +1332,21 @@ export const addresses: {
             },
         },
     },
+    [ChainId.SONIC_CHAIN_ID]: {
+        socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+        routeIds: {
+            [Bridge.CCTPv2]: {
+                routeId: 385,
+                isMiddleware: false,
+            }
+        },
+        controllerIds: {
+            [Controller.FeesTakerController]: {
+                controllerId: 1,
+            },
+            [Controller.RefuelSwapAndBridge]: {
+                controllerId: 0,
+            },
+        },
+    },
 };
