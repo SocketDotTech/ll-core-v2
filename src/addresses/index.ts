@@ -143,7 +143,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 439,
+                routeId: 442,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -251,7 +251,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 409,
+                routeId: 412,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -409,7 +409,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 406,
+                routeId: 409,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -520,7 +520,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 421,
+                routeId: 423,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -643,7 +643,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 425,
+                routeId: 428,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -808,7 +808,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 425,
+                routeId: 428,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -1009,7 +1009,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 421,
+                routeId: 424,
                 isMiddleware: true,
             },
             [Bridge.B3Native]: {
@@ -1066,7 +1066,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 396,
+                routeId: 399,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -1144,7 +1144,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 390,
+                routeId: 392,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -1185,7 +1185,7 @@ export const addresses: {
                 isMiddleware: true,
             },
             [Middleware.Magpie]: {
-                routeId: 391,
+                routeId: 393,
                 isMiddleware: true,
             },
             [Middleware.Kyberswap]: {
@@ -1231,7 +1231,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Middleware.Magpie]: {
-                routeId: 386,
+                routeId: 387,
                 isMiddleware: true,
             },
         },
