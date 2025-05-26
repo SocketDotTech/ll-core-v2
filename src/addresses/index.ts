@@ -1338,6 +1338,10 @@ export const addresses: {
             [Bridge.CCTPv2]: {
                 routeId: 385,
                 isMiddleware: false,
+            },
+            [Middleware.Kyberswap]: {
+                routeId: 386,
+                isMiddleware: true,
             }
         },
         controllerIds: {
