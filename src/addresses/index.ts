@@ -1342,6 +1342,14 @@ export const addresses: {
             [Middleware.Kyberswap]: {
                 routeId: 386,
                 isMiddleware: true,
+            },
+            [Middleware.Magpie]: {
+                routeId: 387,
+                isMiddleware: true,
+            },
+            [Middleware.OpenOcean]: {
+                routeId: 388,
+                isMiddleware: true,
             }
         },
         controllerIds: {
