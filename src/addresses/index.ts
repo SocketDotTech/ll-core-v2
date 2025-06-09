@@ -1361,4 +1361,29 @@ export const addresses: {
             },
         },
     },
+    [ChainId.WORD_CHAIN_ID]: {
+        socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+        routeIds: {
+            [Bridge.CCTPv2]: {
+                routeId: 386,
+                isMiddleware: false,
+            },
+            [Bridge.Across]: {
+                routeId: 387,
+                isMiddleware: false,
+            },
+            [Middleware.ZeroxV2]: {
+                routeId: 385,
+                isMiddleware: true,
+            }
+        },
+        controllerIds: {
+            [Controller.FeesTakerController]: {
+                controllerId: 1,
+            },
+            [Controller.RefuelSwapAndBridge]: {
+                controllerId: 0,
+            },
+        },
+    },
 };
