@@ -226,6 +226,10 @@ export const addresses: {
                 routeId: 408,
                 isMiddleware: false,
             },
+            [Bridge.Across]: {
+                routeId: 413,
+                isMiddleware: false,
+            },
             [Middleware.OneInch]: {
                 routeId: 14,
                 isMiddleware: true,
@@ -1351,6 +1355,31 @@ export const addresses: {
                 routeId: 388,
                 isMiddleware: true,
             }
+        },
+        controllerIds: {
+            [Controller.FeesTakerController]: {
+                controllerId: 1,
+            },
+            [Controller.RefuelSwapAndBridge]: {
+                controllerId: 0,
+            },
+        },
+    },
+     [ChainId.WORLD_CHAIN_ID]: {
+        socketGateway: "0x3a23F943181408EAC424116Af7b7790c94Cb97a5",
+        routeIds: {
+            [Middleware.ZeroxV2]: {
+                routeId: 385,
+                isMiddleware: true,
+            },
+            [Bridge.CCTPv2]: {
+                routeId: 386,
+                isMiddleware: false,
+            },
+            [Bridge.Across]: {
+                routeId: 387,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.FeesTakerController]: {
