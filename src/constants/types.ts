@@ -88,6 +88,7 @@ export enum ChainId {
   B3_CHAIN_ID = 8333,
   UNI_CHAIN_ID = 130,
   BERA_CHAIN_ID = 80094,
+  WORLD_CHAIN_ID = 480,
 }
 
 export enum Controller {
