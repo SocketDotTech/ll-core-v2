@@ -222,6 +222,10 @@ export const addresses: {
                 routeId: 402,
                 isMiddleware: false,
             },
+            [Bridge.Across]: {
+                routeId: 413,
+                isMiddleware: false,
+            },
             [Bridge.Mayan]: {
                 routeId: 408,
                 isMiddleware: false,
@@ -489,6 +493,10 @@ export const addresses: {
             },
             [Bridge.StargateV2]: {
                 routeId: 414,
+                isMiddleware: false,
+            },
+            [Bridge.CCTPv2]: {
+                routeId: 424,
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
