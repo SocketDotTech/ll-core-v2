@@ -827,6 +827,10 @@ export const addresses: {
                 routeId: 404,
                 isMiddleware: true,
             },
+            [Bridge.CCTPv2]: {
+                routeId: 429,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1304,6 +1308,10 @@ export const addresses: {
             [Middleware.ZeroxV2]: {
                 routeId: 387,
                 isMiddleware: true,
+            },
+            [Bridge.CCTPv2]: {
+                routeId: 388,
+                isMiddleware: false,
             },
         },
         controllerIds: {
