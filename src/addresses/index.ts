@@ -115,7 +115,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 438,
+                routeId: 443,
                 isMiddleware: false,
             },
             [Middleware.OneInch]: {
@@ -227,7 +227,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 408,
+                routeId: 414,
                 isMiddleware: false,
             },
             [Middleware.OneInch]: {
@@ -385,7 +385,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 405,
+                routeId: 410,
                 isMiddleware: false,
             },
             [Middleware.OneInch]: {
@@ -500,7 +500,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 420,
+                routeId: 425,
                 isMiddleware: false,
             },
             [Middleware.OneInch]: {
@@ -623,7 +623,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 424,
+                routeId: 429,
                 isMiddleware: false,
             },
             [Middleware.OneInch]: {
@@ -788,7 +788,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 424,
+                routeId: 430,
                 isMiddleware: false,
             },
             [Middleware.OneInch]: {
@@ -1005,7 +1005,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
-                routeId: 419,
+                routeId: 425,
                 isMiddleware: false,
             },
             wrappedTokenSwapperImpl: {
@@ -1085,6 +1085,10 @@ export const addresses: {
                 routeId: 398,
                 isMiddleware: true,
             },
+            [Bridge.Mayan]:{
+                routeId: 400,
+                isMiddleware: false,
+            }
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1313,6 +1317,10 @@ export const addresses: {
                 routeId: 388,
                 isMiddleware: false,
             },
+            [Bridge.Mayan]:{
+                routeId: 389,
+                isMiddleware: false,
+            }
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
