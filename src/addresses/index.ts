@@ -66,6 +66,10 @@ export const addresses: {
                 routeId: 440,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 440,
+                isMiddleware: false,
+            },
             [Bridge.BaseBridge]: {
                 routeId: 405,
                 isMiddleware: false,
@@ -372,6 +376,10 @@ export const addresses: {
                 routeId: 407,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 407,
+                isMiddleware: false,
+            },
             [Bridge.Synapse]: {
                 routeId: 386,
                 isMiddleware: false,
@@ -499,6 +507,10 @@ export const addresses: {
                 routeId: 424,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 424,
+                isMiddleware: false,
+            },
             [Bridge.Mayan]: {
                 routeId: 425,
                 isMiddleware: false,
@@ -563,6 +575,10 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.CCTPv2]: {
+                routeId: 426,
+                isMiddleware: false,
+            },
+            [Bridge.CCTPv2Fast]: {
                 routeId: 426,
                 isMiddleware: false,
             },
@@ -831,6 +847,10 @@ export const addresses: {
                 routeId: 429,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 429,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -996,6 +1016,10 @@ export const addresses: {
                 routeId: 422,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 422,
+                isMiddleware: false,
+            },
             [Bridge.SuperBridge]: {
                 routeId: 412,
                 isMiddleware: false,
@@ -1066,6 +1090,10 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.CCTPv2]: {
+                routeId: 397,
+                isMiddleware: false,
+            },
+            [Bridge.CCTPv2Fast]: {
                 routeId: 397,
                 isMiddleware: false,
             },
@@ -1317,6 +1345,10 @@ export const addresses: {
                 routeId: 388,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 388,
+                isMiddleware: false,
+            },
             [Bridge.Mayan]:{
                 routeId: 389,
                 isMiddleware: false,
@@ -1363,6 +1395,10 @@ export const addresses: {
                 routeId: 385,
                 isMiddleware: false,
             },
+            [Bridge.CCTPv2Fast]: {
+                routeId: 385,
+                isMiddleware: false,
+            },
             [Middleware.Kyberswap]: {
                 routeId: 386,
                 isMiddleware: true,
@@ -1389,6 +1425,10 @@ export const addresses: {
         socketGateway: "0x3a23f943181408eac424116af7b7790c94cb97a5",
         routeIds: {
             [Bridge.CCTPv2]: {
+                routeId: 386,
+                isMiddleware: false,
+            },
+            [Bridge.CCTPv2Fast]: {
                 routeId: 386,
                 isMiddleware: false,
             },
