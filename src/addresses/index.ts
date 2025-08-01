@@ -95,7 +95,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.GnosisNative]: {
-                routeId: 403,
+                routeId: 444,
                 isMiddleware: false,
             },
             [Bridge.MantleNative]: {
