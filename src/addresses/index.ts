@@ -1,6 +1,6 @@
-import {Controller, ChainId, Bridge, Middleware} from "../constants/types";
+import { Controller, ChainId, Bridge, Middleware } from "../constants/types";
 
-import {Address} from "./type";
+import { Address } from "./type";
 
 export const addresses: {
     [chainId: number]: Address;
@@ -111,7 +111,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 430,
+                routeId: 445,
                 isMiddleware: false,
             },
             [Bridge.InkNative]: {
@@ -223,7 +223,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 402,
+                routeId: 415,
                 isMiddleware: false,
             },
             [Bridge.Across]: {
@@ -389,7 +389,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 399,
+                routeId: 411,
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
@@ -500,7 +500,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 414,
+                routeId: 426,
                 isMiddleware: false,
             },
             [Bridge.CCTPv2]: {
@@ -635,7 +635,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 417,
+                routeId: 430,
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
@@ -721,7 +721,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 390,
+                routeId: 391,
                 isMiddleware: false,
             },
         },
@@ -800,7 +800,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 418,
+                routeId: 431,
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
@@ -1025,7 +1025,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 413,
+                routeId: 426,
                 isMiddleware: false,
             },
             [Bridge.Mayan]: {
@@ -1086,7 +1086,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 393,
+                routeId: 401,
                 isMiddleware: false,
             },
             [Bridge.CCTPv2]: {
@@ -1113,10 +1113,10 @@ export const addresses: {
                 routeId: 398,
                 isMiddleware: true,
             },
-            [Bridge.Mayan]:{
+            [Bridge.Mayan]: {
                 routeId: 400,
                 isMiddleware: false,
-            }
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1139,7 +1139,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 387,
+                routeId: 391,
                 isMiddleware: false,
             },
             [Middleware.ZeroxV2]: {
@@ -1172,7 +1172,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 386,
+                routeId: 393,
                 isMiddleware: false,
             },
             [Bridge.Across]: {
@@ -1236,6 +1236,10 @@ export const addresses: {
                 routeId: 392,
                 isMiddleware: true,
             },
+            [Bridge.StargateV2]: {
+                routeId: 394,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1257,6 +1261,10 @@ export const addresses: {
                 routeId: 386,
                 isMiddleware: false,
             },
+            [Bridge.StargateV2]: {
+                routeId: 387,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1272,6 +1280,10 @@ export const addresses: {
         routeIds: {
             [Bridge.Across]: {
                 routeId: 385,
+                isMiddleware: false,
+            },
+            [Bridge.StargateV2]: {
+                routeId: 388,
                 isMiddleware: false,
             },
             [Middleware.Magpie]: {
@@ -1296,7 +1308,7 @@ export const addresses: {
                 isMiddleware: false,
             },
             [Bridge.StargateV2]: {
-                routeId: 386,
+                routeId: 387,
                 isMiddleware: false,
             },
         },
@@ -1349,10 +1361,14 @@ export const addresses: {
                 routeId: 388,
                 isMiddleware: false,
             },
-            [Bridge.Mayan]:{
+            [Bridge.Mayan]: {
                 routeId: 389,
                 isMiddleware: false,
-            }
+            },
+            [Bridge.StargateV2]: {
+                routeId: 390,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1378,6 +1394,10 @@ export const addresses: {
                 routeId: 387,
                 isMiddleware: true,
             },
+            [Bridge.StargateV2]: {
+                routeId: 389,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.RefuelSwapAndBridge]: {
@@ -1399,6 +1419,10 @@ export const addresses: {
                 routeId: 385,
                 isMiddleware: false,
             },
+            [Bridge.StargateV2]: {
+                routeId: 389,
+                isMiddleware: false,
+            },
             [Middleware.Kyberswap]: {
                 routeId: 386,
                 isMiddleware: true,
@@ -1410,7 +1434,7 @@ export const addresses: {
             [Middleware.OpenOcean]: {
                 routeId: 388,
                 isMiddleware: true,
-            }
+            },
         },
         controllerIds: {
             [Controller.FeesTakerController]: {
@@ -1439,7 +1463,11 @@ export const addresses: {
             [Middleware.ZeroxV2]: {
                 routeId: 385,
                 isMiddleware: true,
-            }
+            },
+            [Bridge.StargateV2]: {
+                routeId: 388,
+                isMiddleware: false,
+            },
         },
         controllerIds: {
             [Controller.FeesTakerController]: {
